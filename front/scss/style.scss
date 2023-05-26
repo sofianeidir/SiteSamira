@@ -1,0 +1,344 @@
+body {
+     margin: auto;
+     background: rgb(238, 235, 231);
+}
+
+ a{
+    color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* HEADER */
+
+header {
+   height: 135px;
+}
+
+#Header {
+    z-index: 1;
+    position: fixed;
+    background: white;
+    width: 100%;
+    i {
+        display: none;
+    }
+}
+
+
+#barreInfo {
+    margin-top: 0;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0;
+    align-items: center;
+    margin: auto;
+
+    img {
+        height: 100px;
+    }
+
+    li {
+        color: black;
+    }
+    
+}
+
+/* PREMIERE SECTION */
+#PremierePartie {
+    width: 100%;
+    height: 450px;
+    text-align: center;
+    margin-bottom: 115px;
+
+    img {
+      width: 95%;
+      max-height: 100%;
+    }
+
+    #ProfessionSamira {
+        position: relative;
+        margin: auto;
+        font-size: 54px;
+        bottom: 85%;
+        color: rgba(14, 1, 1, 0.517);
+    }
+
+    #PrendreRdv {
+        text-align: center;  
+        border: 3px solid rgb(134, 212, 208);
+        background: rgb(134, 212, 208);
+        border-radius: 30px 30px 30px 30px;
+        width: 27%;
+        font-size: 17px;
+        position: relative;
+        margin: auto;
+        bottom: 59%;
+    }
+}
+
+/* DEUXIEME PARTIE  VOUS RENCONTREZ */
+
+#VousRencontrez {
+    height: 600px;
+    width: 100%;
+    margin-bottom: 30px;
+
+    #VousRencontrezContainer {
+        display: flex;
+        justify-content: space-around;
+        height: 100%;
+    }
+
+    #VousRencontrezImg {
+        width: 45%;
+
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            object-position: 90%;
+        }
+    }
+
+    #VousRencontrezTexte {
+        width: 45%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: justify;
+
+        li {
+            font-size: 22px;
+        }
+
+        p {
+            font-size: 20px;
+        };
+    }
+}
+
+/* TROISIEME PARTIE MA PRATIQUE */
+
+#MaPratique  {
+    height: 600px;
+    width: 100%;
+
+    #MaPratiqueContainer {
+        display: flex;
+        justify-content: space-around;
+        height: 100%;
+
+       #MaPratiqueImg {
+        width: 45%;
+
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            object-position: 90%;
+        }
+       }
+
+        #MaPratiqueTexte {
+            width: 45%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            text-align: justify;
+
+            li {
+                font-size: 22px;
+            }
+
+            p {
+                font-size: 20px;
+            }
+            }
+    }
+}
+
+
+/* PARTIE INFORMATIONS EXPERIENCES */
+
+#ExperiencesPro {
+    width: 100%;
+
+    img {
+        width: 100%;
+       object-fit: cover;
+    }
+}
+
+/* Contact */
+
+footer {
+    background: rgb(134, 212, 208);
+    height: 50px;
+}
+
+
+#ContainerContact {
+    
+    ul{
+        display: flex;
+        justify-content: space-around;
+
+        i {
+            font-size: 34px;
+            margin-top: 40%;
+        }
+    }
+}
+
+
+
+/* RESPONSIVE MEDIA QUERIES */
+@media (max-width:700px) {
+    header {
+        height: 120px;
+    }
+#Header {
+    
+    i {
+        display: flex;
+        font-size: 39px;
+        position: fixed;
+        left: 45px;
+        top: 37px;
+    }
+}
+
+#barreInfo{
+
+   li {
+    display: none;
+
+    }
+
+   img {
+    margin: auto;
+   }
+}
+
+#PremierePartie {
+    margin-bottom: 0;
+    height: 200px;
+
+    img {
+        height: 200px;
+    }
+
+    #ProfessionSamira {
+            font-size: 27px;
+            bottom: 173px;
+       
+    }
+
+    #PrendreRdv {
+        z-index: 1;
+        position: fixed;
+        bottom: 777px;
+        left: 71%;
+        background: #ffff;
+        border: none;
+        height: 40px;
+    
+        p {
+            height: 110px;
+            width: 130px;
+            font-size: 12px;
+            font-weight: 700;
+            width: 95px;
+        }
+    }
+}
+
+/* JE VIENS DE COMMENCER FAUT VOIR SI TOUT EST NECESSAIRE */
+#VousRencontrez {
+    height: 550px;
+    margin-bottom: 0px;
+    
+    #VousRencontrezContainer {
+        flex-direction: column-reverse;
+    }
+
+    #VousRencontrezImg {
+        width: 100%;
+        height: 200px;
+
+    }
+
+    #VousRencontrezTexte {
+        width: 95%;
+        height: 100%;
+        margin: auto;
+
+
+        li {
+            font-size: 15px;
+        }
+
+        p {
+            font-size: 15px;
+        }
+
+        h2 {
+            font-size: 16px;
+        }
+    }
+}
+
+#MaPratique  {
+    height: 550px;
+
+    #MaPratiqueContainer {
+        flex-direction: column;
+        height: 100%;
+
+       #MaPratiqueImg {
+        width: 100%;
+        height: 200px;
+
+        img {
+            object-position: 50%;
+        }
+       }
+
+        #MaPratiqueTexte {
+            margin: auto;
+            width: 95%;
+            margin-bottom: 10px;
+
+            li {
+                font-size: 15px;
+            }
+
+            p {
+                font-size: 15px;
+            }
+
+            h2 {
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+#ExperiencesPro {
+    margin-bottom: -30px;
+    img {
+        height: 240px;
+/* rajouter options zoom quand l'utilisateur click dessus */
+    }
+
+    img:hover {
+        zoom: 170%;
+    }
+}
+
+
+
+}
