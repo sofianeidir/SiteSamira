@@ -103,7 +103,7 @@ header {
   font-size: 22px;
 }
 #VousRencontrez #VousRencontrezTexte p {
-  font-size: 20px;
+  font-size: 22px;
 }
 
 /* TROISIEME PARTIE MA PRATIQUE */
@@ -139,17 +139,52 @@ header {
   font-size: 22px;
 }
 #MaPratique #MaPratiqueContainer #MaPratiqueTexte p {
-  font-size: 20px;
+  font-size: 22px;
 }
 
 /* PARTIE INFORMATIONS EXPERIENCES */
 #ExperiencesPro {
   width: 100%;
+  background-color: white;
+  margin-top: 50px;
 }
-#ExperiencesPro img {
+#ExperiencesPro #ExperienceProContainer {
+  width: 95%;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+#ExperiencesPro #ExperienceProContainer .ExperienceProCarte {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 3px rgb(238, 235, 231) solid;
+  border-radius: 5%;
+  width: 29%;
+  height: 550px;
+  text-align: center;
+  background-color: rgb(238, 235, 231);
+}
+#ExperiencesPro #ExperienceProContainer .ExperienceProCarte p {
+  font-size: 21px;
+}
+#ExperiencesPro #ExperienceProContainer .teste {
+  margin-top: 40px;
+}
+#ExperiencesPro #ExperienceProContainer .teste h3 {
+  color: rgb(61, 176, 170);
+}
+#ExperiencesPro #ExperienceProContainer .testeimage {
+  height: 130px;
+  width: 150px;
+  margin: auto;
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 50%;
+  border: 13px white solid;
+}
+#ExperiencesPro #ExperienceProContainer .testeimage img {
   width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  height: 100%;
 }
 
 /* Contact */
