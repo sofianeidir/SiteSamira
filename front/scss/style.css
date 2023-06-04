@@ -277,6 +277,7 @@ footer {
     width: 95%;
     height: 100%;
     margin: auto;
+    margin-top: 35px;
   }
   #VousRencontrez #VousRencontrezTexte li {
     font-size: 15px;
@@ -306,7 +307,7 @@ footer {
     margin: auto;
     width: 95%;
     margin-bottom: 20px;
-    margin-top: 33px;
+    margin-top: 45px;
   }
   #MaPratique #MaPratiqueContainer #MaPratiqueTexte li {
     font-size: 15px;
