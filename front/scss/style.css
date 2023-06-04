@@ -20,7 +20,7 @@ header {
   background: white;
   width: 100%;
 }
-#Header i {
+#Header i, #Header #teste {
   display: none;
 }
 
@@ -207,15 +207,35 @@ footer {
   header {
     height: 120px;
   }
-  #Header i {
+  #Header {
     display: flex;
-    font-size: 39px;
-    position: fixed;
-    left: 45px;
-    top: 37px;
+    justify-content: space-between;
+    width: 100%;
+  }
+  #barreInfo {
+    justify-content: space-between;
+    width: 80%;
   }
   #barreInfo li {
     display: none;
+  }
+  #barreInfo i {
+    display: flex;
+    font-size: 34px;
+  }
+  #barreInfo .fa-bars:hover + #teste {
+    color: red;
+    display: flex;
+    display: block;
+    flex-direction: column;
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    font-size: 30px;
+    background-color: black;
+    width: 30%;
+    height: 300px;
+    left: 0;
   }
   #barreInfo img {
     margin: auto;
@@ -232,13 +252,7 @@ footer {
     bottom: 173px;
   }
   #PremierePartie #PrendreRdv {
-    z-index: 1;
-    position: fixed;
-    bottom: 777px;
-    left: 71%;
-    background: white;
-    border: none;
-    height: 40px;
+    display: none;
   }
   #PremierePartie #PrendreRdv p {
     height: 110px;
@@ -303,13 +317,16 @@ footer {
     font-size: 16px;
   }
   #ExperiencesPro {
-    margin-bottom: -30px;
+    margin-top: 0px;
   }
-  #ExperiencesPro img {
-    height: 240px;
-    /* rajouter options zoom quand l'utilisateur click dessus */
+  #ExperiencesPro #ExperienceProContainer {
+    height: 1750px;
+    justify-content: space-between;
+    flex-direction: column;
   }
-  #ExperiencesPro img:hover {
-    zoom: 170%;
+  #ExperiencesPro #ExperienceProContainer .ExperienceProCarte {
+    margin: auto;
+    width: 95%;
+    height: 540px;
   }
 }/*# sourceMappingURL=style.css.map */
