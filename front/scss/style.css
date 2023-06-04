@@ -271,7 +271,7 @@ footer {
   }
   #VousRencontrez #VousRencontrezImg {
     width: 100%;
-    height: 200px;
+    height: 300px;
   }
   #VousRencontrez #VousRencontrezTexte {
     width: 95%;
@@ -296,7 +296,7 @@ footer {
   }
   #MaPratique #MaPratiqueContainer #MaPratiqueImg {
     width: 100%;
-    height: 200px;
+    height: 300px;
   }
   #MaPratique #MaPratiqueContainer #MaPratiqueImg img {
     -o-object-position: 50%;
@@ -305,7 +305,8 @@ footer {
   #MaPratique #MaPratiqueContainer #MaPratiqueTexte {
     margin: auto;
     width: 95%;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 33px;
   }
   #MaPratique #MaPratiqueContainer #MaPratiqueTexte li {
     font-size: 15px;
@@ -317,7 +318,7 @@ footer {
     font-size: 16px;
   }
   #ExperiencesPro {
-    margin-top: 0px;
+    margin-top: 30px;
   }
   #ExperiencesPro #ExperienceProContainer {
     height: 1750px;
