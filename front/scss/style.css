@@ -223,7 +223,7 @@ footer {
     display: flex;
     font-size: 34px;
   }
-  #barreInfo .fa-bars:hover + #teste {
+  #barreInfo .fa-bars:active + #teste {
     color: red;
     display: flex;
     display: block;
