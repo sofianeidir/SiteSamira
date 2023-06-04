@@ -182,24 +182,18 @@ header {
             margin-bottom: 50px;
             border: 3px rgb(238, 235, 231) solid;
             border-radius: 5%;
-            width: 29%;
-            height: 550px;
+            width: 27%;
+            height: 560px;
             text-align: center;
             background-color: rgb(238, 235, 231) ;
-            // display: flex;
-            // flex-direction: column;
-            // justify-content: space-around;
 
             p {
-                // display: flex;
-                // flex-direction: column;
-                // justify-content: space-around;
                 font-size: 21px;
             }
             
         }
 
-        .teste {
+        .ExperienceProCarteTexte {
             margin-top: 40px;
 
             h3 {
@@ -207,7 +201,7 @@ header {
             }
         }
 
-        .testeimage {
+        .ExperienceProCarteImg {
             height: 130px;
             width: 150px;
             margin: auto;
@@ -219,11 +213,7 @@ header {
 
             img {
                 width: 100%;
-                height: 100%;
-                // background-color: #FFFF;
-                // border-radius: 60%;
-                // border: 15px #ffff solid;
-           
+                height: 100%;     
             }
         }
 

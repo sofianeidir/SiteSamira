@@ -159,21 +159,21 @@ header {
   margin-bottom: 50px;
   border: 3px rgb(238, 235, 231) solid;
   border-radius: 5%;
-  width: 29%;
-  height: 550px;
+  width: 27%;
+  height: 560px;
   text-align: center;
   background-color: rgb(238, 235, 231);
 }
 #ExperiencesPro #ExperienceProContainer .ExperienceProCarte p {
   font-size: 21px;
 }
-#ExperiencesPro #ExperienceProContainer .teste {
+#ExperiencesPro #ExperienceProContainer .ExperienceProCarteTexte {
   margin-top: 40px;
 }
-#ExperiencesPro #ExperienceProContainer .teste h3 {
+#ExperiencesPro #ExperienceProContainer .ExperienceProCarteTexte h3 {
   color: rgb(61, 176, 170);
 }
-#ExperiencesPro #ExperienceProContainer .testeimage {
+#ExperiencesPro #ExperienceProContainer .ExperienceProCarteImg {
   height: 130px;
   width: 150px;
   margin: auto;
@@ -182,7 +182,7 @@ header {
   border-radius: 50%;
   border: 13px white solid;
 }
-#ExperiencesPro #ExperienceProContainer .testeimage img {
+#ExperiencesPro #ExperienceProContainer .ExperienceProCarteImg img {
   width: 100%;
   height: 100%;
 }
