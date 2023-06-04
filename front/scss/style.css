@@ -263,7 +263,7 @@ footer {
   }
   /* JE VIENS DE COMMENCER FAUT VOIR SI TOUT EST NECESSAIRE */
   #VousRencontrez {
-    height: 550px;
+    height: 700px;
     margin-bottom: 0px;
   }
   #VousRencontrez #VousRencontrezContainer {
@@ -289,7 +289,7 @@ footer {
     font-size: 16px;
   }
   #MaPratique {
-    height: 550px;
+    height: 700px;
   }
   #MaPratique #MaPratiqueContainer {
     flex-direction: column;
@@ -297,7 +297,7 @@ footer {
   }
   #MaPratique #MaPratiqueContainer #MaPratiqueImg {
     width: 100%;
-    height: 650px;
+    height: 300px;
   }
   #MaPratique #MaPratiqueContainer #MaPratiqueImg img {
     -o-object-position: 50%;
@@ -307,7 +307,6 @@ footer {
     margin: auto;
     width: 95%;
     margin-bottom: 20px;
-    margin-top: 45px;
   }
   #MaPratique #MaPratiqueContainer #MaPratiqueTexte li {
     font-size: 15px;
@@ -319,7 +318,7 @@ footer {
     font-size: 16px;
   }
   #ExperiencesPro {
-    margin-top: 30px;
+    margin-top: 0;
   }
   #ExperiencesPro #ExperienceProContainer {
     height: 1750px;
