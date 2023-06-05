@@ -20,7 +20,7 @@ header {
     position: fixed;
     background: white;
     width: 100%;
-    i, #teste{
+    i{
         display: none;
     }
 }
@@ -264,6 +264,8 @@ footer {
     
    li {
     display: none;
+    color: red;
+    background-color: black;
     }
 
     i {
@@ -271,18 +273,19 @@ footer {
         font-size: 34px;
     }
 
-.fa-bars:hover + #teste {
-        color: red;
-       display: inline-block;
-       flex-direction: column;
-       position: absolute;
-       top: 0px;
-       font-size: 30px;
-       background-color: black;
-       width: 30%;
-       height: 300px;
-       left: 0;
-    }
+// .fa-bars:hover {
+//         color: red;
+//        display: flex;
+//        flex-direction: column;
+//        position: absolute;
+//         top: 0px;
+//        font-size: 30px;
+//     //    background-color: black;
+//        width: 30%;
+//        height: 300px;
+//        left: 0;
+//        z-index: 111;
+//     }
 
    img {
     margin: auto;

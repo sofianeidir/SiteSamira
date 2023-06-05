@@ -20,7 +20,7 @@ header {
   background: white;
   width: 100%;
 }
-#Header i, #Header #teste {
+#Header i {
   display: none;
 }
 
@@ -216,24 +216,19 @@ footer {
     justify-content: space-between;
     width: 80%;
   }
-  #barreInfo li {
+  /* y'avais barreInfo avant le li */
+   #essaye { 
     display: none;
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    left: 30px;
+    top: 85px;
   }
+
   #barreInfo i {
     display: flex;
     font-size: 34px;
-  }
-  #barreInfo .fa-bars:hover + #teste {
-    color: red;
-    display: inline-block;
-    flex-direction: column;
-    position: absolute;
-    top: 0px;
-    font-size: 30px;
-    background-color: black;
-    width: 30%;
-    height: 300px;
-    left: 0;
   }
   #barreInfo img {
     margin: auto;
