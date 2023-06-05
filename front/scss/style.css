@@ -217,16 +217,19 @@ footer {
     width: 80%;
   }
   #barreInfo #essaye {
-    height: 300px;
-    width: 200px;
+    height: 430px;
+    width: 100%;
     display: none;
     position: absolute;
     left: 0px;
-    top: 55px;
-    background-color: black;
+    top: 100px;
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 0 0 20% 20%;
   }
   #barreInfo li {
-    color: red;
+    text-align: center;
+    color: black;
   }
   #barreInfo i {
     display: flex;

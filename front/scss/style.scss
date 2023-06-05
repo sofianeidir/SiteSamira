@@ -263,17 +263,21 @@ footer {
    width: 80%;
 
   #essaye {
-    height: 300px;
-    width: 200px;
+    height: 430px;
+    width: 100%;
    display: none;
    position: absolute;
    left: 0px;
-   top: 55px;
-   background-color: black;
+   top: 100px;
+   background-color: #FFFF;
+   border: 3px solid #FFFF;
+   border-radius: 0 0 20% 20%;
    }
 
    li {
-    color: red;
+    text-align: center;
+    // margin-left: 50px;
+    color:black
    }
 
    i {
