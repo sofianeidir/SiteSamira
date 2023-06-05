@@ -216,16 +216,18 @@ footer {
     justify-content: space-between;
     width: 80%;
   }
-  /* y'avais barreInfo avant le li */
-   #essaye { 
-    display: none;
-    width: 400px;
+  #barreInfo #essaye {
     height: 300px;
+    width: 200px;
+    display: none;
     position: absolute;
-    left: 30px;
-    top: 85px;
+    left: 0px;
+    top: 55px;
+    background-color: black;
   }
-
+  #barreInfo li {
+    color: red;
+  }
   #barreInfo i {
     display: flex;
     font-size: 34px;

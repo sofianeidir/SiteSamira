@@ -6,13 +6,12 @@ let e = document.querySelector('a')
 
 
 teste.addEventListener('click',() => {
-  teste1.style.display = 'block';
+  teste1.style.display = 'flex';
+  teste1.style.flexDirection = 'column'
+  teste1.style.justifyContent = "space-around"
   console.log("gg")
 });
 
-// teste.addEventListener('click',() => {
-    
-// } ) 
 
 
 

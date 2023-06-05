@@ -1,277 +1,285 @@
 body {
-     margin: auto;
-     background: rgb(238, 235, 231);
+    margin: auto;
+    background: rgb(238, 235, 231);
 }
 
- a{
-    color: black;
-    list-style: none;
-    text-decoration: none;
+a{
+   color: black;
+   list-style: none;
+   text-decoration: none;
 }
 
 /* HEADER */
 
 header {
-   height: 135px;
+  height: 135px;
 }
 
 #Header {
-    z-index: 1;
-    position: fixed;
-    background: white;
-    width: 100%;
-    i{
-        display: none;
-    }
+   z-index: 1;
+   position: fixed;
+   background: white;
+   width: 100%;
+   i{
+       display: none;
+   }
 }
 
 
 #barreInfo {
-    margin-top: 0;
-    display: flex;
-    justify-content: space-around;
-    padding-left: 0;
-    align-items: center;
-    margin: auto;
+   margin-top: 0;
+   display: flex;
+   justify-content: space-around;
+   padding-left: 0;
+   align-items: center;
+   margin: auto;
 
-    img {
-        height: 100px;
-        // margin-left: 50px;
-    }
+   img {
+       height: 100px;
+       // margin-left: 50px;
+   }
 
-    li {
-        color: black;
-    }
-    
+   li {
+       color: black;
+   }
+   
 }
 
 /* PREMIERE SECTION */
 #PremierePartie {
-    width: 100%;
-    height: 450px;
-    text-align: center;
-    margin-bottom: 115px;
+   width: 100%;
+   height: 450px;
+   text-align: center;
+   margin-bottom: 115px;
 
-    img {
-      width: 95%;
-      max-height: 100%;
-    }
+   img {
+     width: 95%;
+     max-height: 100%;
+   }
 
-    #ProfessionSamira {
-        position: relative;
-        margin: auto;
-        font-size: 54px;
-        bottom: 85%;
-        color: rgba(14, 1, 1, 0.517);
-    }
+   #ProfessionSamira {
+       position: relative;
+       margin: auto;
+       font-size: 54px;
+       bottom: 85%;
+       color: rgba(14, 1, 1, 0.517);
+   }
 
-    #PrendreRdv {
-        text-align: center;  
-        border: 3px solid rgb(134, 212, 208);
-        background: rgb(134, 212, 208);
-        border-radius: 30px 30px 30px 30px;
-        width: 27%;
-        font-size: 17px;
-        position: relative;
-        margin: auto;
-        bottom: 59%;
-    }
+   #PrendreRdv {
+       text-align: center;  
+       border: 3px solid rgb(134, 212, 208);
+       background: rgb(134, 212, 208);
+       border-radius: 30px 30px 30px 30px;
+       width: 27%;
+       font-size: 17px;
+       position: relative;
+       margin: auto;
+       bottom: 59%;
+   }
 }
 
 /* DEUXIEME PARTIE  VOUS RENCONTREZ */
 
 #VousRencontrez {
-    height: 600px;
-    width: 100%;
-    margin-bottom: 30px;
+   height: 600px;
+   width: 100%;
+   margin-bottom: 30px;
 
-    #VousRencontrezContainer {
-        display: flex;
-        justify-content: space-around;
-        height: 100%;
-    }
+   #VousRencontrezContainer {
+       display: flex;
+       justify-content: space-around;
+       height: 100%;
+   }
 
-    #VousRencontrezImg {
-        width: 45%;
+   #VousRencontrezImg {
+       width: 45%;
 
-        img {
-            height: 100%;
-            width: 100%;
-            object-fit: cover;
-            object-position: 90%;
-        }
-    }
+       img {
+           height: 100%;
+           width: 100%;
+           object-fit: cover;
+           object-position: 90%;
+       }
+   }
 
-    #VousRencontrezTexte {
-        width: 45%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        text-align: justify;
+   #VousRencontrezTexte {
+       width: 45%;
+       height: 100%;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-around;
+       text-align: justify;
 
-        li {
-            font-size: 22px;
-        }
+       li {
+           font-size: 22px;
+       }
 
-        p {
-            font-size: 22px;
-        };
-    }
+       p {
+           font-size: 22px;
+       };
+   }
 }
 
 /* TROISIEME PARTIE MA PRATIQUE */
 
 #MaPratique  {
-    height: 600px;
-    width: 100%;
+   height: 600px;
+   width: 100%;
 
-    #MaPratiqueContainer {
-        display: flex;
-        justify-content: space-around;
-        height: 100%;
+   #MaPratiqueContainer {
+       display: flex;
+       justify-content: space-around;
+       height: 100%;
 
-       #MaPratiqueImg {
-        width: 45%;
+      #MaPratiqueImg {
+       width: 45%;
 
-        img {
-            height: 100%;
-            width: 100%;
-            object-fit: cover;
-            object-position: 90%;
-        }
+       img {
+           height: 100%;
+           width: 100%;
+           object-fit: cover;
+           object-position: 90%;
        }
+      }
 
-        #MaPratiqueTexte {
-            width: 45%;
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
-            text-align: justify;
+       #MaPratiqueTexte {
+           width: 45%;
+           height: 100%;
+           display: flex;
+           flex-direction: column;
+           justify-content: space-around;
+           text-align: justify;
 
-            li {
-                font-size: 22px;
-            }
+           li {
+               font-size: 22px;
+           }
 
-            p {
-                font-size: 22px;
-            }
-            }
-    }
+           p {
+               font-size: 22px;
+           }
+           }
+   }
 }
 
 
 /* PARTIE INFORMATIONS EXPERIENCES */
 
 #ExperiencesPro {
-    width: 100%;
-    background-color: #FFFF;
-    margin-top: 50px;
+   width: 100%;
+   background-color: #FFFF;
+   margin-top: 50px;
 
-    #ExperienceProContainer {
-        width: 95%;
-        display: flex;
-        justify-content: space-around;
-        margin: auto;
+   #ExperienceProContainer {
+       width: 95%;
+       display: flex;
+       justify-content: space-around;
+       margin: auto;
 
-       
+      
 
-        .ExperienceProCarte {
-            margin-top: 50px;
-            margin-bottom: 50px;
-            border: 3px rgb(238, 235, 231) solid;
-            border-radius: 5%;
-            width: 27%;
-            height: 560px;
-            text-align: center;
-            background-color: rgb(238, 235, 231) ;
+       .ExperienceProCarte {
+           margin-top: 50px;
+           margin-bottom: 50px;
+           border: 3px rgb(238, 235, 231) solid;
+           border-radius: 5%;
+           width: 27%;
+           height: 560px;
+           text-align: center;
+           background-color: rgb(238, 235, 231) ;
 
-            p {
-                font-size: 21px;
-            }
-            
-        }
+           p {
+               font-size: 21px;
+           }
+           
+       }
 
-        .ExperienceProCarteTexte {
-            margin-top: 40px;
+       .ExperienceProCarteTexte {
+           margin-top: 40px;
 
-            h3 {
-                color: rgb(61, 176, 170);
-            }
-        }
+           h3 {
+               color: rgb(61, 176, 170);
+           }
+       }
 
-        .ExperienceProCarteImg {
-            height: 130px;
-            width: 150px;
-            margin: auto;
-            margin-top: 20px;
-            background-color: #FFFF;
-            border-radius: 50%;
-            border:13px #ffff solid;
-            
+       .ExperienceProCarteImg {
+           height: 130px;
+           width: 150px;
+           margin: auto;
+           margin-top: 20px;
+           background-color: #FFFF;
+           border-radius: 50%;
+           border:13px #ffff solid;
+           
 
-            img {
-                width: 100%;
-                height: 100%;     
-            }
-        }
+           img {
+               width: 100%;
+               height: 100%;     
+           }
+       }
 
-    }
+   }
 }
 
 /* Contact */
 
 footer {
-    background: rgb(134, 212, 208);
-    height: 50px;
+   background: rgb(134, 212, 208);
+   height: 50px;
 }
 
 
 #ContainerContact {
-    
-    ul{
-        display: flex;
-        justify-content: space-around;
+   
+   ul{
+       display: flex;
+       justify-content: space-around;
 
-        i {
-            font-size: 34px;
-            margin-top: 40%;
-        }
-    }
+       i {
+           font-size: 34px;
+           margin-top: 40%;
+       }
+   }
 }
 
 
 
 /* RESPONSIVE MEDIA QUERIES */
 @media (max-width:700px) {
-    header {
-        height: 120px;
+   header {
+       height: 120px;
 
-    }
+   }
 #Header {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   
 
 }
 
 #barreInfo{
 
-    justify-content: space-between;
-    width: 80%;
-    
-   li {
-    display: none;
-    color: red;
-    background-color: black;
-    }
+   justify-content: space-between;
+   width: 80%;
 
-    i {
-        display: flex;
-        font-size: 34px;
-    }
+  #essaye {
+    height: 300px;
+    width: 200px;
+   display: none;
+   position: absolute;
+   left: 0px;
+   top: 55px;
+   background-color: black;
+   }
+
+   li {
+    color: red;
+   }
+
+   i {
+       display: flex;
+       font-size: 34px;
+   }
 
 // .fa-bars:hover {
 //         color: red;
@@ -287,133 +295,133 @@ footer {
 //        z-index: 111;
 //     }
 
-   img {
-    margin: auto;
-   }
+  img {
+   margin: auto;
+  }
 }
 
 #PremierePartie {
-    margin-bottom: 0;
-    height: 200px;
+   margin-bottom: 0;
+   height: 200px;
 
-    img {
-        height: 200px;
-    }
+   img {
+       height: 200px;
+   }
 
-    #ProfessionSamira {
-            font-size: 27px;
-            bottom: 173px;
-       
-    }
+   #ProfessionSamira {
+           font-size: 27px;
+           bottom: 173px;
+      
+   }
 
-    #PrendreRdv {
-        display: none;
-        // z-index: 1;
-        // position: fixed;
-        // bottom: 777px;
-        // left: 71%;
-        // background: #ffff;
-        // border: none;
-        // height: 40px;
-    
-        p {
-            height: 110px;
-            width: 130px;
-            font-size: 12px;
-            font-weight: 700;
-            width: 95px;
-        }
-    }
+   #PrendreRdv {
+       display: none;
+       // z-index: 1;
+       // position: fixed;
+       // bottom: 777px;
+       // left: 71%;
+       // background: #ffff;
+       // border: none;
+       // height: 40px;
+   
+       p {
+           height: 110px;
+           width: 130px;
+           font-size: 12px;
+           font-weight: 700;
+           width: 95px;
+       }
+   }
 }
 
 /* JE VIENS DE COMMENCER FAUT VOIR SI TOUT EST NECESSAIRE */
 #VousRencontrez {
-    height: 700px;
-    margin-bottom: 0px;
-    
-    #VousRencontrezContainer {
-        flex-direction: column-reverse;
-    }
+   height: 700px;
+   margin-bottom: 0px;
+   
+   #VousRencontrezContainer {
+       flex-direction: column-reverse;
+   }
 
-    #VousRencontrezImg {
-        width: 100%;
-        height: 300px;
+   #VousRencontrezImg {
+       width: 100%;
+       height: 300px;
 
-    }
+   }
 
-    #VousRencontrezTexte {
-        width: 95%;
-        height: 100%;
-        margin: auto;
-        margin-top: 35px;
+   #VousRencontrezTexte {
+       width: 95%;
+       height: 100%;
+       margin: auto;
+       margin-top: 35px;
 
 
-        li {
-            font-size: 15px;
-        }
+       li {
+           font-size: 15px;
+       }
 
-        p {
-            font-size: 15px;
-        }
+       p {
+           font-size: 15px;
+       }
 
-        h2 {
-            font-size: 16px;
-        }
-    }
+       h2 {
+           font-size: 16px;
+       }
+   }
 }
 
 #MaPratique  {
-    height: 700px; // 550
+   height: 700px; // 550
 
-    #MaPratiqueContainer {
-        flex-direction: column;
-        height: 100%;
+   #MaPratiqueContainer {
+       flex-direction: column;
+       height: 100%;
 
-       #MaPratiqueImg {
-        width: 100%;
-        height: 300px; // c'était 300
+      #MaPratiqueImg {
+       width: 100%;
+       height: 300px; // c'était 300
 
-        img {
-            object-position: 50%;
-        }
+       img {
+           object-position: 50%;
        }
+      }
 
-        #MaPratiqueTexte {
-            margin: auto;
-            width: 95%;
-            margin-bottom: 20px;
+       #MaPratiqueTexte {
+           margin: auto;
+           width: 95%;
+           margin-bottom: 20px;
 
-            li {
-                font-size: 15px;
-            }
+           li {
+               font-size: 15px;
+           }
 
-            p {
-                font-size: 15px;
-            }
+           p {
+               font-size: 15px;
+           }
 
-            h2 {
-                font-size: 16px;
-            }
-        }
-    }
+           h2 {
+               font-size: 16px;
+           }
+       }
+   }
 }
 
 #ExperiencesPro {
-    // margin-top: 30px;
-    //  background-color: red;
-    margin-top: 0;
+   // margin-top: 30px;
+   //  background-color: red;
+   margin-top: 0;
 
-    #ExperienceProContainer {
-        height: 1750px;
-        justify-content: space-between;
-        flex-direction: column;
+   #ExperienceProContainer {
+       height: 1750px;
+       justify-content: space-between;
+       flex-direction: column;
 
-        .ExperienceProCarte {
-            margin: auto;
-            width: 95%;
-            height: 540px;
-        }
-    }
+       .ExperienceProCarte {
+           margin: auto;
+           width: 95%;
+           height: 540px;
+       }
+   }
 
 }
 
