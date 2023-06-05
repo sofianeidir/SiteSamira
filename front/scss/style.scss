@@ -271,9 +271,9 @@ footer {
         font-size: 34px;
     }
 
-.fa-bars:active {
+.fa-bars:hover  {
         color: red;
-       display: flex;
+       display: inline-block;
        flex-direction: column;
        position: absolute;
        top: 0px;
@@ -282,11 +282,6 @@ footer {
        width: 30%;
        height: 300px;
        left: 0;
-
-    }
-
-    .fa-bars:after {
-        content: '';
     }
 
    img {
