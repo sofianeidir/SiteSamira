@@ -223,12 +223,10 @@ footer {
     display: flex;
     font-size: 34px;
   }
-  #barreInfo .fa-bars:active + #teste {
+  #barreInfo .fa-bars:active {
     color: red;
     display: flex;
-    display: block;
     flex-direction: column;
-    z-index: 1;
     position: absolute;
     top: 0px;
     font-size: 30px;
@@ -236,6 +234,9 @@ footer {
     width: 30%;
     height: 300px;
     left: 0;
+  }
+  #barreInfo .fa-bars:after {
+    content: "";
   }
   #barreInfo img {
     margin: auto;
