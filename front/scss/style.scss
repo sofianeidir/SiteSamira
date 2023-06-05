@@ -271,7 +271,7 @@ footer {
         font-size: 34px;
     }
 
-.fa-bars:hover  {
+.fa-bars:hover + #teste {
         color: red;
        display: inline-block;
        flex-direction: column;

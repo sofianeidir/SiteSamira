@@ -223,7 +223,7 @@ footer {
     display: flex;
     font-size: 34px;
   }
-  #barreInfo .fa-bars:hover {
+  #barreInfo .fa-bars:hover + #teste {
     color: red;
     display: inline-block;
     flex-direction: column;
