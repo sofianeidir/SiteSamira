@@ -34,6 +34,12 @@ header {
    align-items: center;
    margin: auto;
 
+   #essaye {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+   }
+
    img {
        height: 100px;
        // margin-left: 50px;
@@ -274,6 +280,15 @@ footer {
    border-radius: 0 0 20% 20%;
    }
 
+   .fa-xmark {
+    display: none;
+    position: absolute;
+    top: 470px;
+    left: 370px;
+    z-index: 1000;
+    color: rgb(134, 212, 208);
+   }
+
    li {
     text-align: center;
     // margin-left: 50px;
@@ -281,10 +296,14 @@ footer {
    }
 
    i {
+    color: rgb(134, 212, 208);
        display: flex;
        font-size: 34px;
    }
 
+   .fa-bars {
+    font-size: 39px;
+   }
 // .fa-bars:hover {
 //         color: red;
 //        display: flex;

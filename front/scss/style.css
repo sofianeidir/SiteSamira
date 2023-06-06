@@ -32,6 +32,11 @@ header {
   align-items: center;
   margin: auto;
 }
+#barreInfo #essaye {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+}
 #barreInfo img {
   height: 100px;
 }
@@ -227,13 +232,25 @@ footer {
     border: 3px solid white;
     border-radius: 0 0 20% 20%;
   }
+  #barreInfo .fa-xmark {
+    display: none;
+    position: absolute;
+    top: 470px;
+    left: 370px;
+    z-index: 1000;
+    color: rgb(134, 212, 208);
+  }
   #barreInfo li {
     text-align: center;
     color: black;
   }
   #barreInfo i {
+    color: rgb(134, 212, 208);
     display: flex;
     font-size: 34px;
+  }
+  #barreInfo .fa-bars {
+    font-size: 39px;
   }
   #barreInfo img {
     margin: auto;
