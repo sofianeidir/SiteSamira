@@ -61,8 +61,9 @@ window.addEventListener('scroll', ()=>{
   }
 });
 
-window.addEventListener('resize', ()=>{
+window.addEventListener('resize', (e)=>{
   location.reload()
+  e.preventDefault()
     })
 
 
