@@ -5,7 +5,10 @@ let accueil = document.getElementById('accueil')
 let barreInfo = document.getElementById('barreInfoEspace')
 let croix = document.getElementById('non')
 let VousRencontrez = document.getElementById('VousRencontrez')
+let body = document.querySelector('body')
 let display = false;
+var ticking = false;
+
 
 teste.addEventListener('click',() => {
  if(!display){
@@ -24,7 +27,7 @@ teste.addEventListener('click',() => {
 
 // CREER DES VARIABLE CAR TROP DE CODE DOUBLON !!!!!!!
 
-VousRencontrez.addEventListener('click',() => {
+non.addEventListener('click',() => {
   teste1.style.display = 'none';
   display = false;
   non.style.display = 'none';
@@ -42,6 +45,13 @@ barreInfo.addEventListener('click', ()=>{
   display = false;
   non.style.display = 'none';
 });
+
+window.addEventListener('scroll', ()=>{
+
+    teste1.style.display = 'none';
+    display = false;
+    non.style.display = 'none';
+})
 
 
 
