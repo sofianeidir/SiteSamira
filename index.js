@@ -59,8 +59,18 @@ window.addEventListener('scroll', ()=>{
     display = false;
     non.style.display = 'none';
   }
+});
 
-})
+window.addEventListener('resize', ()=>{
+  location.reload()
+    })
+
+
+ 
+
+
+
+
 
 
 
