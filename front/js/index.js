@@ -7,7 +7,6 @@ let croix = document.getElementById('non')
 let VousRencontrez = document.getElementById('VousRencontrez')
 let body = document.querySelector('body')
 let display = false;
-var ticking = false;
 
 
 teste.addEventListener('click',() => {
@@ -26,7 +25,7 @@ teste.addEventListener('click',() => {
 });
 
 // CREER DES VARIABLE CAR TROP DE CODE DOUBLON !!!!!!!
-
+// renomer tous les teste
 non.addEventListener('click',() => {
   teste1.style.display = 'none';
   display = false;
@@ -61,7 +60,7 @@ window.addEventListener('scroll', ()=>{
   }
 });
 
-window.addEventListener('resize', (e)=>{
+window.addEventListener('resize', ()=>{
   if (window.matchMedia("(min-width: 768px)").matches){
     location.reload()
   }
