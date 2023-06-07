@@ -1,8 +1,10 @@
 let teste = document.getElementById('oui');
 let teste1 = document.getElementById('essaye');
 let a = document.querySelectorAll('#barreInfo > a > li');
-let e = document.querySelector('a')
+let accueil = document.getElementById('accueil')
+let barreInfo = document.getElementById('barreInfoEspace')
 let croix = document.getElementById('non')
+let VousRencontrez = document.getElementById('VousRencontrez')
 let display = false;
 
 teste.addEventListener('click',() => {
@@ -12,17 +14,35 @@ teste.addEventListener('click',() => {
   teste1.style.justifyContent = "space-around";
   croix.style.display='flex';
   display = true;
- }else{
+ }else {
   teste1.style.display = 'none';
   croix.style.display = 'none';
   display = false;
  }
+
 });
 
-non.addEventListener('click',() => {
+// CREER DES VARIABLE CAR TROP DE CODE DOUBLON !!!!!!!
+
+VousRencontrez.addEventListener('click',() => {
   teste1.style.display = 'none';
+  display = false;
   non.style.display = 'none';
-})
+});
+
+accueil.addEventListener('click', ()=>{
+  teste1.style.display = 'none';
+  display = false;
+  non.style.display = 'none';
+
+});
+
+barreInfo.addEventListener('click', ()=>{
+  teste1.style.display = 'none';
+  display = false;
+  non.style.display = 'none';
+});
+
 
 
 
