@@ -34,23 +34,32 @@ non.addEventListener('click',() => {
 });
 
 accueil.addEventListener('click', ()=>{
-  teste1.style.display = 'none';
-  display = false;
-  non.style.display = 'none';
+  if (window.matchMedia("(max-width: 768px)").matches){
+    teste1.style.display = 'none';
+    display = false;
+    non.style.display = 'none';
+  }
+
 
 });
 
 barreInfo.addEventListener('click', ()=>{
-  teste1.style.display = 'none';
-  display = false;
-  non.style.display = 'none';
-});
-
-window.addEventListener('scroll', ()=>{
-
+  if (window.matchMedia("(max-width: 768px)").matches) {
     teste1.style.display = 'none';
     display = false;
     non.style.display = 'none';
+  } else {
+    teste1.style.display = 'flex'
+  }
+});
+
+window.addEventListener('scroll', ()=>{
+  if (window.matchMedia("(max-width: 768px)").matches) {
+    teste1.style.display = 'none';
+    display = false;
+    non.style.display = 'none';
+  }
+
 })
 
 

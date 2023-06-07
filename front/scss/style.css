@@ -39,6 +39,7 @@ header {
 }
 #barreInfo img {
   height: 100px;
+  margin-left: 90px;
 }
 #barreInfo li {
   color: black;
