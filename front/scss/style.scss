@@ -250,7 +250,7 @@ footer {
 
 
 /* RESPONSIVE MEDIA QUERIES */
-@media (max-width:700px) {
+@media (max-width:700px) {  // javais mit max 700
    header {
        height: 120px;
 
@@ -436,5 +436,69 @@ footer {
 }
 
 
+
+}
+
+
+/* version tablette */
+
+@media (max-width:820px) {
+    header {
+        height: 120px;
+ 
+    }
+ #Header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+ 
+ }
+ 
+ #barreInfo{
+ 
+    justify-content: space-between;
+    width: 80%;
+ 
+   #essaye {
+     height: 430px;
+     width: 100%;
+    display: none;
+    position: absolute;
+    left: 0px;
+    top: 100px;
+    background-color: #FFFF;
+    border: 3px solid #FFFF;
+    border-radius: 0 0 20% 20%;
+    }
+ 
+    .fa-xmark {
+     display: none;
+     position: absolute;
+     top: 470px;
+     left: 670px;
+     z-index: 1000;
+     color: rgb(134, 212, 208);
+    }
+ 
+    li {
+     text-align: center;
+     color:black
+    }
+ 
+    i {
+     color: rgb(134, 212, 208);
+        display: flex;
+        font-size: 34px;
+    }
+ 
+    .fa-bars {
+     font-size: 39px;
+    }
+ 
+   img {
+    margin: auto;
+   }
+ }
 
 }

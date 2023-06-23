@@ -346,4 +346,53 @@ footer {
     width: 95%;
     height: 540px;
   }
+}
+/* version tablette */
+@media (max-width: 820px) {
+  header {
+    height: 120px;
+  }
+  #Header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  #barreInfo {
+    justify-content: space-between;
+    width: 80%;
+  }
+  #barreInfo #essaye {
+    height: 430px;
+    width: 100%;
+    display: none;
+    position: absolute;
+    left: 0px;
+    top: 100px;
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 0 0 20% 20%;
+  }
+  #barreInfo .fa-xmark {
+    display: none;
+    position: absolute;
+    top: 470px;
+    left: 670px;
+    z-index: 1000;
+    color: rgb(134, 212, 208);
+  }
+  #barreInfo li {
+    text-align: center;
+    color: black;
+  }
+  #barreInfo i {
+    color: rgb(134, 212, 208);
+    display: flex;
+    font-size: 34px;
+  }
+  #barreInfo .fa-bars {
+    font-size: 39px;
+  }
+  #barreInfo img {
+    margin: auto;
+  }
 }/*# sourceMappingURL=style.css.map */
