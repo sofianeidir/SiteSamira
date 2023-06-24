@@ -61,7 +61,7 @@ window.addEventListener('scroll', ()=>{
 });
 
 window.addEventListener('resize', ()=>{
-  if (window.matchMedia("(min-width: 768px)").matches){
+  if (window.matchMedia("(max-width: 768px)").matches){
     location.reload()
   }
     })
