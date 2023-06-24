@@ -201,7 +201,9 @@ footer {
 
 #ContainerContact ul {
   display: flex;
-  justify-content: space-around;
+  width: 190px;
+  justify-content: space-between;
+  margin: auto;
 }
 #ContainerContact ul i {
   font-size: 34px;
@@ -394,5 +396,20 @@ footer {
   }
   #barreInfo img {
     margin: auto;
+  }
+  #ExperiencesPro {
+    margin-top: 0;
+  }
+  #ExperiencesPro #ExperienceProContainer {
+    height: 700px;
+    justify-content: space-between;
+  }
+  #ExperiencesPro #ExperienceProContainer .ExperienceProCarte {
+    margin: auto;
+    width: 30%;
+    height: 660px;
+  }
+  #ExperiencesPro #title-formation {
+    margin-bottom: 43px;
   }
 }/*# sourceMappingURL=style.css.map */

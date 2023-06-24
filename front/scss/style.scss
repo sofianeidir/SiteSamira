@@ -238,7 +238,9 @@ footer {
    
    ul{
        display: flex;
-       justify-content: space-around;
+       width: 190px;
+       justify-content: space-between;
+       margin: auto;
 
        i {
            font-size: 34px;
@@ -435,10 +437,7 @@ footer {
 
 }
 
-
-
 }
-
 
 /* version tablette */
 
@@ -500,5 +499,26 @@ footer {
     margin: auto;
    }
  }
+
+
+ #ExperiencesPro {
+    // margin-top: 30px;
+    //  background-color: red;
+    margin-top: 0;
+ 
+    #ExperienceProContainer {
+        height: 700px;
+        justify-content: space-between;
+ 
+        .ExperienceProCarte {
+            margin: auto;
+            width: 30%;
+            height: 660px;
+        }
+    }
+    #title-formation{
+        margin-bottom: 43px;
+    }
+}
 
 }
