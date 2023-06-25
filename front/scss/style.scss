@@ -16,6 +16,7 @@ header {
 }
 
 #Header {
+    margin-top: 0;
    z-index: 1;
    position: fixed;
    background: white;
@@ -521,4 +522,73 @@ footer {
     }
 }
 
+}
+
+// PARTIE PAGE TARIFS CONSULTATIONS 
+#fautEssayer{
+    img {
+        top: -30px;
+        position: absolute;
+        width: 100%;
+        height: 770px;
+        z-index: 0;
+    }
+}
+
+#container-tarif {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 600px;
+}
+
+
+#div-Infos {
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+    .div-Infos-carte {
+        text-align: center;
+        width: 25%;
+        height: 160px;
+        border: 3px solid white;
+        border-radius: 60%;
+        text-align: center;
+        background-color: #FFFF;
+    }
+
+    h4 {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 19px;
+        text-align: center;
+    }
+}
+
+#div-Explications {
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+    margin: auto;
+}
+
+.div-Explications-carte {
+    width: 28%;
+    height: 370px;
+
+
+    h5 {
+        font-size: 17px;
+    }
+
+    p {
+        font-size: 21px;
+        line-height: 35px;
+
+    }
 }
