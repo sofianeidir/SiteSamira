@@ -60,12 +60,9 @@ window.addEventListener('scroll', ()=>{
   }
 });
 
-window.addEventListener('resize', ()=>{
-  // if (window.matchMedia("(max-width: 768px)").matches){
-  //   location.reload()
-  // }
-  location.reload()
-});
+// window.addEventListener('resize', ()=>{
+//   location.reload()
+// });
 
 
  

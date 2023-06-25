@@ -17,7 +17,7 @@ header {
 
 #Header {
     margin-top: 0;
-   z-index: 1;
+   z-index: 3;
    position: fixed;
    background: white;
    width: 100%;
@@ -590,5 +590,35 @@ footer {
         font-size: 21px;
         line-height: 35px;
 
+    }
+}
+
+#containerInfosTarifs {
+    width: 100%;
+    background-color: #FFFF;
+
+
+    .divInfosTarfis {
+        width: 100%;
+        
+    }
+
+    .divInfosTarfisFirst{
+        display: flex;
+        justify-content: space-around;
+
+        #divInfosTarfisTitle{
+                
+
+            h6 {
+                font-size: 25px;          
+            }
+
+        }
+
+        p {
+            font-size: 21px;
+            line-height: 40px;
+        }
     }
 }
