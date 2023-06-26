@@ -478,15 +478,58 @@ footer {
 }
 #containerInfosTarifs .divInfosTarfis {
   width: 100%;
+  padding-top: 50px;
 }
-#containerInfosTarifs .divInfosTarfisFirst {
+#containerInfosTarifs .divInfosTarfisFirst, #containerInfosTarifs .divInfosTarfisFirstDeux {
   display: flex;
   justify-content: space-around;
+  margin: auto;
 }
-#containerInfosTarifs .divInfosTarfisFirst #divInfosTarfisTitle h6 {
+#containerInfosTarifs .divInfosTarfisFirst .divInfosTarfisTitle, #containerInfosTarifs .divInfosTarfisFirstDeux .divInfosTarfisTitle {
+  border: 1px solid rgb(134, 212, 208);
+  border-radius: 50%;
+  height: 155px;
+  width: 260px;
+  transform: translate(-50%);
+  margin-top: 60px;
+  margin-left: 250px;
+  background: rgb(134, 212, 208);
+  text-align: center;
+}
+#containerInfosTarifs .divInfosTarfisFirst .divInfosTarfisTitle h6, #containerInfosTarifs .divInfosTarfisFirstDeux .divInfosTarfisTitle h6 {
   font-size: 25px;
+  position: absolute;
+  top: -8px;
+  left: 10px;
 }
-#containerInfosTarifs .divInfosTarfisFirst p {
+#containerInfosTarifs .divInfosTarfisFirst p, #containerInfosTarifs .divInfosTarfisFirstDeux p {
   font-size: 21px;
   line-height: 40px;
+  max-width: 600px;
+  margin-top: 50px;
+  text-align: right;
+}
+#containerInfosTarifs .divInfosTarfisTitle::before {
+  content: "";
+  height: 53px;
+  width: 53px;
+  border: 11px solid rgb(134, 212, 208);
+  background: rgb(134, 212, 208);
+  transform: translate(-60%) rotate(45deg);
+  position: absolute;
+  border-radius: 30% 0 30%;
+  left: 237px;
+  top: 41px;
+}
+#containerInfosTarifs .divInfosTarfisFirstDeux {
+  display: flex;
+  flex-direction: row-reverse;
+}
+#containerInfosTarifs .divInfosTarfisFirstDeux p {
+  text-align: left;
+  max-width: 700px;
+}
+#containerInfosTarifs .divInfosTarfisFirstDeux .divInfosTarfisTitle::before {
+  position: absolute;
+  left: 38px;
 }/*# sourceMappingURL=style.css.map */
