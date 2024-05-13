@@ -221,6 +221,7 @@ footer {
 }
 
 /* RESPONSIVE MEDIA QUERIES */
+/*              VERSION MOBILE               */
 @media (max-width: 700px) {
   header {
     height: 120px;
@@ -344,6 +345,19 @@ footer {
   }
   #MaPratique #MaPratiqueContainer #MaPratiqueTexte h2 {
     font-size: 16px;
+  }
+  #ExperiencesPro {
+    margin-top: 0;
+  }
+  #ExperiencesPro #ExperienceProContainer {
+    height: 1750px;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  #ExperiencesPro #ExperienceProContainer .ExperienceProCarte {
+    margin: auto;
+    width: 95%;
+    height: 540px;
   }
 }
 /* version tablette */
