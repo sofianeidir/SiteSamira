@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./front/scss/style.css">
     <script src="https://kit.fontawesome.com/bf4938555b.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
     <title>Samira Mechri Psychologue</title>
 </head>
 <body>
@@ -21,7 +22,7 @@
                         <div id="essaye">
                         <a href="#"><li id="accueil">ACCUEIL</li></a> 
                         <a href="#LienVisantARamenerLeLecteur"><li id="barreInfoEspace">MA PRATIQUE </li></a>
-                        <a href="./front/html/tarif.html"><li>CONSULTATIONS/ TARIFS</li></a>
+                        <a href="./front/html/tarif.html"><li>CONSULTATIONS & TARIFS</li></a>
                         <a href=""><li>FORMATIONS</li></a>
                         <a href="./front/html/contact.html"><li>CONTACT</li></a>
                         </div>
@@ -29,6 +30,12 @@
                 </div>   
             </section>   
         </header>
+<!-- Début de widget en ligne Calendly -->
+<aside id="calendly-container">
+    <div id="calendly" class="calendly-inline-widget" data-url="https://calendly.com/samiramechri/consultation-de-suivi-de-psychologie" style="min-width:500px; height:700px;"></div>
+    <button id="fermer">Fermer</button>
+</aside>
+<!-- Fin de widget en ligne Calendly -->
 <!--            PREMIERE PARTIE             -->
         <section id="PremierePartie">
             <img src="./front/images/IMG_01BA88C6A7F1-1.jpeg" alt="Bannière représentant un couchée de soleil sur la plage">
@@ -37,7 +44,7 @@
                 <p>Psychothérapeute</p>
             </div>
             <div id="PrendreRdv">
-                <a href="./front/html/contact.html"><p>PRENDRE RENDEZ -VOUS</p></a>
+                <a href="#calendly"><p>PRENDRE RENDEZ -VOUS</p></a>
             </div>
         </section>   
 <!--           DEUXIEME PARTIE           -->
@@ -129,6 +136,7 @@
     </main>
 </body>
 <script src="./front/js/index.js"></script>
+
 
 
 </html>

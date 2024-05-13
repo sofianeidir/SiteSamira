@@ -9,6 +9,7 @@ let body = document.querySelector('body')
 let display = false;
 
 
+
 teste.addEventListener('click',() => {
  if(!display){
   teste1.style.display = 'flex';
@@ -66,6 +67,23 @@ window.addEventListener('scroll', ()=>{
 
 
  
+
+// teste partie prise de rdv
+
+let rdv = document.getElementById('PrendreRdv');
+let calendly = document.getElementById('calendly-container');
+let fermer = document.getElementById('fermer')
+
+rdv.addEventListener('click', () => {
+  
+  calendly.style.display = 'flex';
+  
+  
+})
+
+fermer.addEventListener('click', (e) => {
+  calendly.style.display = 'none'
+})
 
 
 

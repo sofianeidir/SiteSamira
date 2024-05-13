@@ -1,48 +1,91 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/front/scss/style.css">
-    <script src="https://kit.fontawesome.com/bf4938555b.js" crossorigin="anonymous"></script>
-    <title>Samira Mechri Psychologue</title>
-</head>
-<body>
-    <main>
-        <header>
-            <section>
-                <div id="Header"> 
-                    <ul id="barreInfo" >
-                        <i class="fa-solid fa-xmark" id="non"></i>
-                        <i class="fa-solid fa-bars" id="oui" onclick=""></i>
-                        <img src="../images/En_ligne-removebg-preview.png" alt="Logo de Samira Mechri">
-                        <a href="#"><i class="fa-solid fa-calendar-check"></i></a>
-                        <div id="essaye">
-                        <a href="/index.html"><li id="accueil">ACCUEIL</li></a> 
-                        <a href="/index.html"><li id="barreInfoEspace">MA PRATIQUE </li></a>
-                        <a href="../front/html/tarif.html"><li>CONSULTATIONS/ TARIFS</li></a>
-                        <a href=""><li>FORMATIONS</li></a>
-                        <a href="#"><li>CONTACT</li></a>
-                        </div>
-                    </ul> 
-                </div>   
-            </section>   
-        </header>
-<!--            PREMIERE PARTIE             -->
-        <section id="PremierePartie">
-            <img src="/IMG_01BA88C6A7F1-1.jpeg" alt="Bannière représentant un couchée de soleil sur la plage">
-            <div id="ProfessionSamira">
-                <p>Psychologue clinicienne</p>
-                <p>Psychothérapeute</p>
-            </div>
-        </section>  
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/bf4938555b.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="../scss/style.css">
+        <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+        </script>
+        <script type="text/javascript">
+          (function(){
+            emailjs.init("bF3RHOaaLN94dMuXU");
+          })();
+        </script> 
         
-<!--            DEUXIEME PARTIE             -->
-        <section>
+        
+        <title>Contact</title>
+    </head>
+    <body>
+        <main>
+            <header>
+                <section>
+                    <div id="Header"> 
+                        <ul id="barreInfo" >
+                            <i class="fa-solid fa-xmark" id="non"></i>
+                            <i class="fa-solid fa-bars" id="oui" onclick=""></i>
+                            <img src="../images/En_ligne-removebg-preview.png" alt="Logo de Samira Mechri">
+                            <a href="./front/html/contact.html"><i class="fa-solid fa-calendar-check"></i></a>
+                            <div id="essaye">
+                            <a href="/index.html"><li id="accueil">ACCUEIL</li></a> 
+                            <a href="/index.html#LienVisantARamenerLeLecteur"><li id="barreInfoEspace">MA PRATIQUE </li></a>
+                            <a href="/front/html/tarif.html"><li>CONSULTATIONS & TARIFS</li></a>
+                            <a href=""><li>FORMATIONS</li></a>
+                            <a href="#"><li>CONTACT</li></a>
+                            </div>
+                        </ul> 
+                    </div>   
+                </section>
+            </header>
+
+<!--            PREMIERE PARTIE             -->
+        <section id="PremierePartie-Contact">
+
+          <div id="containerForm">
             
-        </section>
+                <h4 id="titre_contact">PAR MAIL, VEUILLEZ REMPLIR CE FORMULAIRE :</h4>
+                <form id="form"> 
+                    <div class="form-text">
+                    <input class="input-color" type="text" id="name" placeholder="Votre nom, prénom">
+                    <p id="champ_Name"><i class="fa-solid fa-triangle-exclamation"></i> Champ incomplet.</p>     
+                    </div>
+                    <div class="form-text">
+                        <input class="input-color" type="email"  id="email" placeholder="Votre adresse mail" required aria-required="true" >
+                        <p id="champ_Email"> <i class="fa-solid fa-triangle-exclamation"></i> Adresse mail invalide.</p>        
+                    </div>
+                    <div class="form-text">
+                        <textarea class="input-color" id="message" placeholder="Votre message..." ></textarea>
+                        <p id="champ_Message"><i class="fa-solid fa-triangle-exclamation"></i> Merci de bien spécifier votre demande.</p>     
+                        <input type="button" value="Envoyer" onclick="sendMail()" id="button">
+                    </div>
+                    
+                 </form>
+                 <div id="spinner"></div>
+          </div>
+
+          <div id="message_post">
+            <h1>Votre message a bien été envoyé ! </h1>
+            <i class="fa-regular fa-circle-check"></i>        
+          </div>
+        </section>  
+
+        <!--      FOOTER       -->   
+        <footer id="Page-Contact">
+            <section id="ContainerContact">
+                <div id="Contact">
+                <ul id="social">
+                    <a href="https://m.facebook.com/ilm.annafs" target="_blank"><li><i class="fa-brands fa-square-facebook" style="color: white";></i></li></a>
+                    <a href="https://www.instagram.com/samirapsychologue/" target="_blank"><li><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></i></li></a> 
+                    <a href="https://www.whatsapp.com/?lang=fr" target="_blank"><li><i class="fa-brands fa-whatsapp" style="color: #ffffff;"></i></li></a>
+                </ul>
+                </div>
+            </section>
+        </footer> 
+        
     </main>
-</body>
-<script src="/index.js"></script>
+    
+</body>   
+<script src="../js/contact.js"></script>
 </html>
