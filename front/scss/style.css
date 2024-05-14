@@ -168,7 +168,6 @@ header {
   border: 3px rgb(238, 235, 231) solid;
   border-radius: 5%;
   width: 27%;
-  height: 560px;
   text-align: center;
   background-color: rgb(238, 235, 231);
 }
@@ -222,7 +221,7 @@ footer {
 
 /* RESPONSIVE MEDIA QUERIES */
 /*              VERSION MOBILE               */
-@media (max-width: 700px) {
+@media (max-width: 950px) {
   header {
     height: 120px;
   }
@@ -361,66 +360,6 @@ footer {
   }
 }
 /* version tablette */
-@media (min-width: 631px) and (max-width: 820px) {
-  header {
-    height: 120px;
-  }
-  #Header {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-  }
-  #barreInfo {
-    justify-content: space-between;
-    width: 80%;
-  }
-  #barreInfo #essaye {
-    height: 430px;
-    width: 100%;
-    display: none;
-    position: absolute;
-    left: 0px;
-    top: 100px;
-    background-color: white;
-    border: 3px solid white;
-    border-radius: 0 0 20% 20%;
-  }
-  #barreInfo .fa-xmark {
-    display: none;
-    position: absolute;
-    top: 470px;
-    left: 670px;
-    z-index: 1000;
-    color: rgb(134, 212, 208);
-  }
-  #barreInfo li {
-    text-align: center;
-    color: black;
-  }
-  #barreInfo i {
-    color: rgb(134, 212, 208);
-    display: flex;
-    font-size: 34px;
-  }
-  #barreInfo .fa-bars {
-    font-size: 39px;
-  }
-  #barreInfo img {
-    margin: auto;
-  }
-  #ExperiencesPro {
-    margin-top: 0;
-    height: 800px;
-  }
-  #ExperiencesPro #ExperienceProContainer {
-    height: 700px;
-    justify-content: space-between;
-  }
-  #ExperiencesPro #ExperienceProContainer .ExperienceProCarte {
-    width: 30%;
-    height: 100%;
-  }
-}
 #fautEssayer img {
   top: -30px;
   position: absolute;

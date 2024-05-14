@@ -180,6 +180,7 @@ header {
    margin-top: 50px;
 
    #ExperienceProContainer {
+
        width: 95%;
        display: flex;
        justify-content: space-around;
@@ -193,7 +194,7 @@ header {
            border: 3px rgb(238, 235, 231) solid;
            border-radius: 5%;
            width: 27%;
-           height: 560px;
+           // 560px height: 35%; 
            text-align: center;
            background-color: rgb(238, 235, 231) ;
 
@@ -266,7 +267,7 @@ footer {
 /* RESPONSIVE MEDIA QUERIES */
 
 /*              VERSION MOBILE               */
-@media (max-width:700px)  { 
+@media (max-width:950px)  {  // 700 à la base
    header {
        height: 120px;
 
@@ -453,86 +454,86 @@ footer {
 
 /* version tablette */
 
-@media (min-width:631px) and (max-width:820px) {
-    header {
-        height: 120px;
+// @media (min-width:631px) and (max-width:820px) {
+//     header {
+//         height: 120px;
  
-    }
- #Header {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
+//     }
+//  #Header {
+//     display: flex;
+//     justify-content: space-between;
+//     width: 100%;
     
  
- }
+//  }
  
- #barreInfo{
+//  #barreInfo{
  
-    justify-content: space-between;
-    width: 80%;
+//     justify-content: space-between;
+//     width: 80%;
  
-   #essaye {
-     height: 430px;
-     width: 100%;
-    display: none;
-    position: absolute;
-    left: 0px;
-    top: 100px;
-    background-color: #FFFF;
-    border: 3px solid #FFFF;
-    border-radius: 0 0 20% 20%;
-    }
+//    #essaye {
+//      height: 430px;
+//      width: 100%;
+//     display: none;
+//     position: absolute;
+//     left: 0px;
+//     top: 100px;
+//     background-color: #FFFF;
+//     border: 3px solid #FFFF;
+//     border-radius: 0 0 20% 20%;
+//     }
  
-    .fa-xmark {
-     display: none;
-     position: absolute;
-     top: 470px;
-     left: 670px;
-     z-index: 1000;
-     color: rgb(134, 212, 208);
-    }
+//     .fa-xmark {
+//      display: none;
+//      position: absolute;
+//      top: 470px;
+//      left: 670px;
+//      z-index: 1000;
+//      color: rgb(134, 212, 208);
+//     }
  
-    li {
-     text-align: center;
-     color:black
-    }
+//     li {
+//      text-align: center;
+//      color:black
+//     }
  
-    i {
-     color: rgb(134, 212, 208);
-        display: flex;
-        font-size: 34px;
-    }
+//     i {
+//      color: rgb(134, 212, 208);
+//         display: flex;
+//         font-size: 34px;
+//     }
  
-    .fa-bars {
-     font-size: 39px;
-    }
+//     .fa-bars {
+//      font-size: 39px;
+//     }
  
-   img {
-    margin: auto;
-   }
- }
+//    img {
+//     margin: auto;
+//    }
+//  }
 
 
- #ExperiencesPro {
-    // margin-top: 30px;
-    //  background-color: red;
-    margin-top: 0;
-    height: 800px;
+//  #ExperiencesPro {
+//     // margin-top: 30px;
+//     //  background-color: red;
+//     margin-top: 0;
+//     height: 800px;
  
-    #ExperienceProContainer {
-      height: 700px;   // teste mais si sa va pas remet comme avant
-        justify-content: space-between;
+//     #ExperienceProContainer {
+//       height: 700px;   // teste mais si sa va pas remet comme avant
+//         justify-content: space-between;
  
-        .ExperienceProCarte {
-            // margin: auto;  SINON LES CARTES NE SONT PAS ALIGNÉS !! En HAUT
-            width: 30%; //  à tester pour mettre les cartes en grand en version tablette
-            height: 100%; // c'était 660 à la base !
+//         .ExperienceProCarte {
+//             // margin: auto;  SINON LES CARTES NE SONT PAS ALIGNÉS !! En HAUT
+//             width: 30%; //  à tester pour mettre les cartes en grand en version tablette
+//             height: 100%; // c'était 660 à la base !
            
-        }
-    }
-}
+//         }
+//     }
+// }
 
-}
+// }
 
 // PARTIE PAGE TARIFS CONSULTATIONS 
 #fautEssayer{
