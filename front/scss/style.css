@@ -224,6 +224,7 @@ footer {
 @media (max-width: 950px) {
   header {
     height: 120px;
+    width: 100%;
   }
   #Header {
     display: flex;
