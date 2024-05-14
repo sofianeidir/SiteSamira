@@ -275,6 +275,7 @@ footer {
   }
   #PremierePartie img {
     height: 200px;
+    width: 100%;
   }
   #PremierePartie #ProfessionSamira {
     font-size: 27px;
