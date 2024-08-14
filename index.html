@@ -18,12 +18,17 @@
                         <i class="fa-solid fa-xmark" id="non"></i>
                         <i class="fa-solid fa-bars" id="oui" onclick=""></i>
                         <img src="./front/images/En_ligne-removebg-preview.png" alt="Logo de Samira Mechri">
-                        <a href="#calendly"><i class="fa-solid fa-calendar-check"></i></a>
+                        <a href="#calendly"><i id="PrendreRdvBoutton" class="fa-solid fa-calendar-check"></i></a>
                         <div id="essaye">
                         <a href="#"><li id="accueil">ACCUEIL</li></a> 
-                        <a href="#LienVisantARamenerLeLecteur"><li id="barreInfoEspace">MA PRATIQUE </li></a>
+                        <!-- <a href="#LienVisantARamenerLeLecteur"><li id="barreInfoEspace">MA PRATIQUE </li></a> si je le remet ne pas oublié d'activé page index.js la fonction que j'ai désactivé -->
                         <a href="./front/html/tarif.html"><li>CONSULTATIONS & TARIFS</li></a>
                         <a href=""><li>FORMATIONS</li></a>
+                        <!-- Début de widget de lien Calendly -->
+                        <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+                        <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+                        <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/samiramechri/consultation-de-suivi-de-psychologie'});return false;">PRENDRE RDV</a>
+                        <!-- Fin de widget de lien Calendly -->
                         <a href="./front/html/contact.html"><li>CONTACT</li></a>
                         </div>
                     </ul> 
@@ -128,7 +133,7 @@
                 <ul id="social">
                     <a href="https://m.facebook.com/ilm.annafs" target="_blank"><li><i class="fa-brands fa-square-facebook" style="color: white";></i></li></a>
                     <a href="https://www.instagram.com/samirapsychologue/" target="_blank"><li><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></i></li></a> 
-                    <a href="https://www.whatsapp.com/?lang=fr" target="_blank"><li><i class="fa-brands fa-whatsapp" style="color: #ffffff;"></i></li></a>
+                    <a href="https://www.whatsapp.com/?lang=fr" target="_blank"><li id="whatsapp"><i class="fa-brands fa-whatsapp" style="color: #ffffff;"></i></li></a>
                 </ul>
                 </div>
             </section>

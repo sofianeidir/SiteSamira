@@ -43,15 +43,17 @@ accueil.addEventListener('click', ()=>{
 
 });
 
-barreInfo.addEventListener('click', ()=>{
-  if (window.matchMedia("(max-width: 821px)").matches) {
-    teste1.style.display = 'none';
-    display = false;
-    non.style.display = 'none';
-  } else {
-    teste1.style.display = 'flex'
-  }
-});
+// JE PENSE QU IL S AGIT DE QUAND JE SUIS EN PETIT ECRAN ET QUE JE VOULAIS QUE LE MENU S ENLEVE QUAND JE CLICK DESSUS !!!! --> 
+
+// barreInfo.addEventListener('click', ()=>{
+//   if (window.matchMedia("(max-width: 821px)").matches) {
+//     teste1.style.display = 'none';
+//     display = false;
+//     non.style.display = 'none';
+//   } else {
+//     teste1.style.display = 'flex'
+//   }
+// });
 
 window.addEventListener('scroll', ()=>{
   if (window.matchMedia("(max-width: 821px)").matches) {
@@ -78,11 +80,16 @@ rdv.addEventListener('click', () => {
   
   calendly.style.display = 'flex';
   
-  
 })
 
 fermer.addEventListener('click', (e) => {
   calendly.style.display = 'none'
+})
+
+let rdvBoutton = document.getElementById('PrendreRdvBoutton');
+
+rdvBoutton.addEventListener('click', ()=>{
+  calendly.style.display = 'flex';
 })
 
 

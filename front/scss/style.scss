@@ -1,7 +1,8 @@
 body {
     margin: auto;
-    background: rgb(244, 241, 237);
+    // background: #d7f3f5a4;
     z-index: 1;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
     
 }
 
@@ -11,15 +12,20 @@ a{
    text-decoration: none;
 }
 
+main {
+    height: 100vh;
+}
+
 /* HEADER */
 
 header {
-  height: 135px;
+//   height: 135px;
+height: 100px;
 }
 
 #Header {
     margin-top: 0;
-   z-index: 3;
+   z-index: 1000;
    position: fixed;
    background: white;
    width: 100%;
@@ -58,13 +64,15 @@ header {
 /* PREMIERE SECTION */
 #PremierePartie {
    width: 100%;
-   height: 450px;
+//    height: 450px;
    text-align: center;
    margin-bottom: 115px;
+   height: 89%;
 
    img {
-     width: 95%;
+     width: 100%;
      max-height: 100%;
+    
    }
 
    #ProfessionSamira {
@@ -249,6 +257,8 @@ footer {
 
 #ContainerContact {
 
+   
+
    ul{
        display: flex;
        width: 190px;
@@ -324,7 +334,10 @@ footer {
   img {
    margin: auto;
   }
+  
 }
+
+
 
 
 
@@ -454,7 +467,10 @@ footer {
 
 }
 
+
 }
+
+/* FIN VERSION MOBILE */
 
 /* version tablette */
 
@@ -610,7 +626,7 @@ footer {
 
 #containerInfosTarifs {
     width: 100%;
-    background-color: #9b9797; //// ICI JE DOIS REVOIR POUR LA PAGE TARIFS
+    // background-color: #9b9797; //// ICI JE DOIS REVOIR POUR LA PAGE TARIFS
 
 
     .divInfosTarfis {
@@ -626,20 +642,21 @@ footer {
 
         .divInfosTarfisTitle{
             border: 1px solid rgb(134, 212, 208);
-            border-radius: 50%;
-            height: 155px;
-            width: 260px;
-            transform: translate(-50%);
-            margin-top: 60px;
-            margin-left: 250px;
+            border-radius: 70%;
+            height: 255px; // j'ai rajouté 100 px pour w et l 
+            width: 360px;
+            // transform: translate(-50%);
+            // margin-top: 60px;
+            // margin-left: 250px;
             background: rgb(134, 212, 208);
             text-align: center;
 
             h6 {
+        
                 font-size: 25px;    
-                position: absolute;
-                top: -8px;
-                left: 10px;
+                // position: absolute;
+                // top: -8px;
+                // left: 10px;
 
             }
 
@@ -654,18 +671,18 @@ footer {
 
         }
     }
-    .divInfosTarfisTitle::before{
-        content: "";
-        height: 53px;
-        width: 53px;
-        border: 11px solid rgb(134, 212, 208);
-        background: rgb(134, 212, 208);
-        transform: translate(-60%) rotate(45deg);
-        position: absolute;
-        border-radius: 30% 0 30%;
-        left: 237px;
-        top: 41px;
-    }
+    // .divInfosTarfisTitle::before{
+    //     // content: "";
+    //     // height: 53px;
+    //     // width: 53px;
+    //     // border: 11px solid rgb(134, 212, 208);   // bulle à revoir ! 
+    //     // background: rgb(134, 212, 208);
+    //     // transform: translate(-60%) rotate(45deg);
+    //     // position: absolute;
+    //     // border-radius: 30% 0 30%;
+    //     // left: 475px;
+    //     // top: 875px;
+    // }
 
     .divInfosTarfisFirstDeux {
         display: flex;
@@ -677,11 +694,11 @@ footer {
 
         }
 
-        .divInfosTarfisTitle::before {
-            position: absolute;
-            left: 38px;
+        // .divInfosTarfisTitle::before {
+        //     // position: absolute;
+        //     // left: 788px;
             
-        }
+        // }
 
      
 
@@ -739,59 +756,79 @@ footer {
 
 
 #PremierePartie-Contact {
-    display: flex;
-    justify-content: space-around;
+    background-color: #d7f3f5a4;
+
     width: 100%;
+    // height:650px;
+    height: 83vh;   
     margin: auto;
 
-    #message_post {
+ 
 
+    #message_post {
+        width: 50%;
        position: absolute;
        font-size: 32px;
        top: 30%;
+       left: 30%;
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    //    left: 27%;
+
 
        i {
         color: green;
         font-size: 82px;  
         margin: auto;
-        width: 100%;
-        margin-left: 40%;
+        margin-left: 35%;
+
         }
     }
 
 
     #containerForm {
-        height: 100%;
-        text-align: start;
-        width: 50%;
+
+     
+        height: 95%;
+        width: 100%;
         display: flex;
         flex-direction: column;
 
         h4 {
+            text-align: center;
             font-size: 15px;
-            margin : 2% 0 0 10%;
-            position: absolute;
-            width: 65%;
+            // margin : 4% 0 0 10%;
+            // position: absolute;
+            // width: 65%;
         }
 
     }
 
-    form {
-        margin-right: auto;
-        margin-left: auto;
-        min-width: 700px;
-        height: 450px;
-        text-align: start;
+    form { 
+        background-color: white;
+        border: 3px solid white;
+        border-radius: 10%;
+        box-shadow: 1px 3px 7px 7px rgb(134, 212, 208);
+        margin: auto;
+        width: 40%;        
+        // min-width: 700px;
+        // height: 550px;
+        height: 100%;
+        // text-align: start;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        transform: translate(10%, 20%);
+        // transform: translate(10%, 20%);
+
+        .form-text {
+           text-align: center;
+           
+        }
 
         #button {
-            
-            width: 300px;
-            margin-top: 40px;
-            margin-left: 130px;
+            width: 50%;
+            // width: 300px;
+            // margin-top: 40px;
+            // margin-left: 130px;
       
         }
 
@@ -807,7 +844,9 @@ footer {
         transform: translate(-50%, -50%) rotate(0deg);
         animation: loader 1s linear infinite;
         position: absolute;
-        margin: 12% 3% 0 20%;     
+        // margin: 12% 3% 0 20%;  
+        top: 45%;
+        left: 50%;   
         z-index: 100; 
      }
 
@@ -824,23 +863,30 @@ footer {
     }
 
     input {
-        border: 3px solid #FFFF;
+        border: 1px solid #000000;
         border-radius: 10px 10px 10px 10px;
         width: 80%;
         height: 40px;
     }
 
     textarea {
-        border: 3px solid #FFFF;
+        border: 1px solid #000000;
         border-radius: 10px 10px 10px 10px;
         width: 80%;
-        height: 150px;
+        height: 160px;
     }
 
     // .form-text {
-    //     display: flex;
-    //     flex-direction: column;
-    //     justify-content: space-around;
+    //     // display: flex;
+    //     // flex-direction: column;
+    //     // justify-content: space-around;
+       
     // }
 
+    ::placeholder {
+        font-family:cursive;
+        color: black;
+    }
+
 }
+

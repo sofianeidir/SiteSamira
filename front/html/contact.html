@@ -14,6 +14,7 @@
             emailjs.init("bF3RHOaaLN94dMuXU");
           })();
         </script> 
+        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
         
         
         <title>Contact</title>
@@ -30,9 +31,14 @@
                             <a href="./front/html/contact.html"><i class="fa-solid fa-calendar-check"></i></a>
                             <div id="essaye">
                             <a href="/index.html"><li id="accueil">ACCUEIL</li></a> 
-                            <a href="/index.html#LienVisantARamenerLeLecteur"><li id="barreInfoEspace">MA PRATIQUE </li></a>
+                            <!-- <a href="/index.html#LienVisantARamenerLeLecteur"><li id="barreInfoEspace">MA PRATIQUE </li></a> -->
                             <a href="/front/html/tarif.html"><li>CONSULTATIONS & TARIFS</li></a>
                             <a href=""><li>FORMATIONS</li></a>
+                            <!-- Début de widget de lien Calendly -->
+                            <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+                            <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+                            <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/samiramechri/consultation-de-suivi-de-psychologie'});return false;">PRENDRE RDV</a>
+                            <!-- Fin de widget de lien Calendly -->
                             <a href="#"><li>CONTACT</li></a>
                             </div>
                         </ul> 
@@ -44,8 +50,7 @@
         <section id="PremierePartie-Contact">
 
           <div id="containerForm">
-            
-                <h4 id="titre_contact">PAR MAIL, VEUILLEZ REMPLIR CE FORMULAIRE :</h4>
+                <h4 id="titre_contact">POUR TOUTES QUESTIONS VEUILLEZ REMPLIR CE FORMULAIRE :</h4>
                 <form id="form"> 
                     <div class="form-text">
                     <input class="input-color" type="text" id="name" placeholder="Votre nom, prénom">
@@ -57,7 +62,7 @@
                     </div>
                     <div class="form-text">
                         <textarea class="input-color" id="message" placeholder="Votre message..." ></textarea>
-                        <p id="champ_Message"><i class="fa-solid fa-triangle-exclamation"></i> Merci de bien spécifier votre demande.</p>     
+                        <p id="champ_Message"><i class="fa-solid fa-triangle-exclamation"></i> Merci de bien spécifier votre demande.</p><br><br><br>    
                         <input type="button" value="Envoyer" onclick="sendMail()" id="button">
                     </div>
                     
