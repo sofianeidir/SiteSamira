@@ -92,6 +92,8 @@ rdvBoutton.addEventListener('click', ()=>{
   calendly.style.display = 'flex';
 })
 
+// Partie tarif, hover sur l'icone
+
 
 
 

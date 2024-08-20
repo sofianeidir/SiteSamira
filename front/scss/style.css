@@ -1,6 +1,5 @@
 body {
   margin: auto;
-  z-index: 1;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
@@ -8,6 +7,10 @@ a {
   color: black;
   list-style: none;
   text-decoration: none;
+}
+
+li {
+  list-style: none;
 }
 
 main {
@@ -55,8 +58,8 @@ header {
 #PremierePartie {
   width: 100%;
   text-align: center;
-  margin-bottom: 115px;
-  height: 89%;
+  margin-bottom: 55px;
+  height: 90%;
 }
 #PremierePartie img {
   width: 100%;
@@ -64,10 +67,23 @@ header {
 }
 #PremierePartie #ProfessionSamira {
   position: relative;
-  margin: auto;
-  font-size: 54px;
-  bottom: 85%;
-  color: rgba(14, 1, 1, 0.517);
+  font-size: 55px;
+  bottom: 75%;
+  color: white;
+  animation-name: glissement;
+  animation-duration: 3s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+@keyframes glissement {
+  from {
+    margin-left: -150%;
+  }
+  to {
+    margin-left: 0%;
+    opacity: 10;
+  }
 }
 #PremierePartie #PrendreRdv {
   text-align: center;
@@ -78,7 +94,21 @@ header {
   font-size: 17px;
   position: relative;
   margin: auto;
-  bottom: 59%;
+  bottom: 60%;
+  animation-name: PrendreRDV;
+  animation-duration: 3s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+@keyframes PrendreRDV {
+  from {
+    margin-left: 0%;
+  }
+  to {
+    margin-left: 37%;
+    opacity: 10;
+  }
 }
 
 /* DEUXIEME PARTIE  VOUS RENCONTREZ */
@@ -91,9 +121,14 @@ header {
   display: flex;
   justify-content: space-around;
   height: 100%;
+  box-shadow: 1px 1px 7px 7px rgb(197, 189, 189);
+  width: 95%;
+  margin: auto;
 }
 #VousRencontrez #VousRencontrezImg {
-  width: 45%;
+  width: 50%;
+  margin: auto;
+  height: 90%;
 }
 #VousRencontrez #VousRencontrezImg img {
   height: 100%;
@@ -102,6 +137,7 @@ header {
      object-fit: cover;
   -o-object-position: 90%;
      object-position: 90%;
+  border-radius: 5%;
 }
 #VousRencontrez #VousRencontrezTexte {
   width: 45%;
@@ -111,11 +147,20 @@ header {
   justify-content: space-around;
   text-align: justify;
 }
+#VousRencontrez #VousRencontrezTexte h2 {
+  margin: auto;
+}
 #VousRencontrez #VousRencontrezTexte li {
+  margin: auto;
+  text-align: center;
   font-size: 22px;
+  width: 90%;
 }
 #VousRencontrez #VousRencontrezTexte p {
   font-size: 22px;
+  margin: auto;
+  text-align: center;
+  width: 90%;
 }
 
 /* TROISIEME PARTIE MA PRATIQUE */
@@ -127,11 +172,17 @@ header {
   display: flex;
   justify-content: space-around;
   height: 100%;
+  box-shadow: 1px 1px 7px 7px rgb(197, 189, 189);
+  width: 95%;
+  margin: auto;
 }
 #MaPratique #MaPratiqueContainer #MaPratiqueImg {
-  width: 45%;
+  width: 50%;
+  margin: auto;
+  height: 90%;
 }
 #MaPratique #MaPratiqueContainer #MaPratiqueImg img {
+  border-radius: 5%;
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
@@ -147,11 +198,22 @@ header {
   justify-content: space-around;
   text-align: justify;
 }
-#MaPratique #MaPratiqueContainer #MaPratiqueTexte li {
+#MaPratique #MaPratiqueContainer #MaPratiqueTexte h2 {
+  margin: auto;
+  width: 80%;
   font-size: 22px;
 }
+#MaPratique #MaPratiqueContainer #MaPratiqueTexte li {
+  font-size: 21px;
+  margin: auto;
+  text-align: center;
+  width: 90%;
+}
 #MaPratique #MaPratiqueContainer #MaPratiqueTexte p {
-  font-size: 22px;
+  font-size: 21px;
+  margin: auto;
+  text-align: center;
+  width: 90%;
 }
 
 /* PARTIE INFORMATIONS EXPERIENCES */
@@ -159,21 +221,24 @@ header {
   width: 100%;
   background-color: white;
   margin-top: 50px;
+  height: 100vh;
 }
 #ExperiencesPro #ExperienceProContainer {
   width: 95%;
   display: flex;
   justify-content: space-around;
   margin: auto;
+  height: 100%;
 }
 #ExperiencesPro #ExperienceProContainer .ExperienceProCarte {
   margin-top: 50px;
   margin-bottom: 50px;
-  border: 3px rgb(238, 235, 231) solid;
+  border: 4px #f8eee5;
   border-radius: 5%;
   width: 27%;
   text-align: center;
-  background-color: rgb(238, 235, 231);
+  background: rgba(248, 238, 229, 0.5411764706);
+  box-shadow: 1px 1px 7px 7px #f8eee5;
 }
 #ExperiencesPro #ExperienceProContainer .ExperienceProCarte p {
   font-size: 21px;
@@ -367,35 +432,48 @@ footer {
 }
 /* FIN VERSION MOBILE */
 /* version tablette */
-#fautEssayer img {
-  top: -30px;
-  position: absolute;
-  width: 100%;
-  height: 770px;
-  z-index: 0;
-}
-
 #container-tarif {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  height: 600px;
+  justify-content: space-around;
+  height: 110%;
+  width: 100%;
+  background-color: rgba(215, 243, 245, 0.6431372549);
 }
 
 #div-Infos {
+  margin: auto;
   z-index: 1;
   display: flex;
   justify-content: space-around;
   width: 100%;
+  animation-name: tarif;
+  animation-duration: 3s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+@keyframes tarif {
+  to {
+    opacity: 1;
+  }
 }
 #div-Infos .div-Infos-carte {
   text-align: center;
-  width: 25%;
-  height: 160px;
+  width: 23%;
+  height: 100%;
   border: 3px solid white;
   border-radius: 60%;
   text-align: center;
   background-color: white;
+}
+#div-Infos .div-Infos-carte #InfoRemboursement {
+  display: none;
+  text-align: center;
+}
+#div-Infos .div-Infos-carte i {
+  font-size: 17px;
+  margin-left: 5px;
 }
 #div-Infos h4 {
   font-size: 25px;
@@ -409,24 +487,50 @@ footer {
   z-index: 1;
   display: flex;
   justify-content: space-around;
-  width: 95%;
+  width: 100%;
   margin: auto;
+  margin-top: 0;
 }
 
 .div-Explications-carte {
-  width: 28%;
-  height: 370px;
+  z-index: 1;
+  width: 27%;
+  height: 100%;
+  text-align: center;
+  border: 3px solid rgb(134, 212, 208);
+  border-radius: 10%;
+  box-shadow: 1px 1px 7px 7px rgb(134, 212, 208);
+  animation-name: explications;
+  animation-duration: 4s;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+@keyframes explications {
+  from {
+    opacity: 0.1;
+  }
+  to {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
 }
 .div-Explications-carte h5 {
   font-size: 17px;
 }
 .div-Explications-carte p {
+  margin: auto;
+  width: 90%;
+  height: 100%;
   font-size: 21px;
   line-height: 35px;
 }
 
 #containerInfosTarifs {
   width: 100%;
+  height: 100vh;
 }
 #containerInfosTarifs .divInfosTarfis {
   width: 100%;
@@ -438,10 +542,10 @@ footer {
   margin: auto;
 }
 #containerInfosTarifs .divInfosTarfisFirst .divInfosTarfisTitle, #containerInfosTarifs .divInfosTarfisFirstDeux .divInfosTarfisTitle {
-  border: 1px solid rgb(134, 212, 208);
-  border-radius: 70%;
-  height: 255px;
-  width: 360px;
+  height: 0%;
+  border-radius: 0px 100px 100px 0px;
+  margin-top: 60px;
+  margin-left: 250px;
   background: rgb(134, 212, 208);
   text-align: center;
 }
@@ -475,13 +579,13 @@ footer {
 }
 #calendly-container #calendly {
   position: fixed;
-  top: 10%;
+  top: 0%;
   width: 100%;
 }
 #calendly-container #fermer {
   position: absolute;
-  top: 85%;
-  left: 43%;
+  bottom: 2%;
+  left: 41%;
   font-size: 30px;
   z-index: 9999;
   border: 11px solid white;
@@ -494,7 +598,7 @@ footer {
 #PremierePartie-Contact {
   background-color: rgba(215, 243, 245, 0.6431372549);
   width: 100%;
-  height: 83vh;
+  height: 81.5vh;
   margin: auto;
 }
 #PremierePartie-Contact #message_post {
@@ -502,14 +606,14 @@ footer {
   position: absolute;
   font-size: 32px;
   top: 30%;
-  left: 30%;
+  left: 26%;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 #PremierePartie-Contact #message_post i {
   color: green;
   font-size: 82px;
   margin: auto;
-  margin-left: 35%;
+  margin-left: 40%;
 }
 #PremierePartie-Contact #containerForm {
   height: 95%;
@@ -580,4 +684,18 @@ footer {
 #PremierePartie-Contact ::placeholder {
   font-family: cursive;
   color: black;
+}
+
+#spinner-formation {
+  width: 160px;
+  height: 160px;
+  border: 16px solid white;
+  border-top: 16px solid rgb(134, 212, 208);
+  border-radius: 50%;
+  transform: translate(-50%, -50%) rotate(0deg);
+  animation: loader 1s linear infinite;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  z-index: 100;
 }/*# sourceMappingURL=style.css.map */

@@ -22,29 +22,33 @@
                         <a href="/index.html"><li id="accueil">ACCUEIL</li></a> 
                         <!-- <a href="/index.html#LienVisantARamenerLeLecteur"><li id="barreInfoEspace">MA PRATIQUE </li></a> -->
                         <a href="#"><li>CONSULTATIONS & TARIFS</li></a>
-                        <a href=""><li>FORMATIONS</li></a>
+                        <a href="./formations.html"><li>FORMATIONS</li></a>
+                         <!-- Début de widget de lien Calendly -->
+                         <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+                         <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+                         <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/samiramechri/consultation-de-suivi-de-psychologie'});return false;">PRENDRE RDV</a>
+                         <!-- Fin de widget de lien Calendly -->
                         <a href="./contact.html"><li>CONTACT</li></a>
                         </div>
                     </ul> 
                 </div>   
             </section>
         </header>
-        <div id="fautEssayer">
-            <!-- <img src="../images/IMG_0947.JPG" alt=""> Faire sans image !! -->
-        </div>
         <section id="container-tarif">
             <div id="div-Infos">
               <div class="div-Infos-carte">
                   <h4>Durée d'une séance</h4>
-                  <p>50-60 minutes</p>
-              </div>
-              <div class="div-Infos-carte">
-                  <h4>Prix d'une séance</h4>
-                  <p>50€</p>
+                  <p>55-60 minutes</p>
+              </div> 
+              <div id="HoverRemboursement" class="div-Infos-carte">
+                  <h4 id="titre-tarif">Prix d'une séance</h4>
+                  <p id="prix-tarif">50€
+                    <i id="icone-remboursement" class="fa-solid fa-circle-info"></i></p>
+                  <p id="InfoRemboursement">Les séances ne sont pas remboursées par l'Assurance Maladie. Certaines mutuelles peuvent vous rembourser.</strong> Je fournis une <strong>facture sur demande</strong> afin que vous puissiez eventuellement vous faire rembourser.</p>
               </div>
               <div class="div-Infos-carte">
                   <h4>Modalité de paiement</h4>
-                  <p>Virement bancaire; Paypal</p>
+                  <p>Virement bancaire ou<br> Paypal</p>
               </div>
             </div>
             <div id="div-Explications">
@@ -72,12 +76,13 @@
                   </div>
               </div>
             </div>
-          </section>
+          <!-- </section>
           <section id="containerInfosTarifs">
             <div class="divInfosTarfis">
                 <div class="divInfosTarfisFirst">
                     <div class="divInfosTarfisTitle">
                         <h6>Est-ce que vous adaptez vos tarifs ?</h6>
+                         
                     </div>
                     <p>
                         <strong>Les prix ne doivent pas être un obstacle à la psychothérapie.</strong><br>
@@ -90,27 +95,25 @@
                         <h6>Les séances sont-elles remboursées ?</h6>
                     </div>
                     <p><strong>Les séances ne sont pas remboursées par l'Assurance Maladie. Certaines mutuelles peuvent vous rembourser.</strong> Je fournis une <strong>facture sur demande</strong> afin que vous puissiez vous faire rembourser par votre mutuelle si celle-ci prend en charge les honoraires d'une psychothérapie. <br><br>
-                        <!-- <U>Précisions autour du dispositif "Mon Psy Santé" :</U> Comme la majorité de mes confrères et consoeurs,
-                            je suis soucieuse de l'éthique et de la déontologie de ma profession. Ce dispositif étant maltraitant à de nombreux égards, je me joins à la mobilisation de boycott de ce dispositif. Pour garantir la 
-                        dignité dont vous méritez en tant que patient, je n'accepte pas d'être conventionnée par la CPAM. --></p><br> 
                 </div>
             </div>
       
-          </section>
-    </main>
+          </section> -->
     <!--      FOOTER       -->   
-    <footer>
-        <section id="ContainerContact">
-            <div id="Contact">
-            <ul id="social">
-                <a href="https://m.facebook.com/ilm.annafs" target="_blank"><li><i class="fa-brands fa-square-facebook" style="color: white";></i></li></a>
-                <a href="https://www.instagram.com/samirapsychologue/" target="_blank"><li><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></i></li></a> 
-                <a href="https://www.whatsapp.com/?lang=fr" target="_blank"><li><i class="fa-brands fa-whatsapp" style="color: #ffffff;"></i></li></a>
-            </ul>
-            </div>
-        </section>
-    </footer> 
-    
+          <footer>
+            <section id="ContainerContact">
+                <div id="Contact">
+                <ul id="social">
+                    <a href="https://m.facebook.com/ilm.annafs" target="_blank"><li><i class="fa-brands fa-square-facebook" style="color: white";></i></li></a>
+                    <a href="https://www.instagram.com/samirapsychologue/" target="_blank"><li><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></i></li></a> 
+                    <a href="https://www.whatsapp.com/?lang=fr" target="_blank"><li><i class="fa-brands fa-whatsapp" style="color: #ffffff;"></i></li></a>
+                </ul>
+                </div>
+            </section>
+        </footer> 
+    </main>
+  
 </body>
-<script src="../js/index.js"></script>
+<!-- <script src="../js/index.js"></script> -->
+<script src="../js/tarif.js"></script>
 </html>
