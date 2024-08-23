@@ -44,7 +44,6 @@ function Informations(){
   window.addEventListener('scroll', ()=>{
     if (window.matchMedia("(max-width: 821px)").matches) {
       messageRemboursement.style.display ='none';
-      
       divInfoCarte.style.backgroundColor = 'white';
       divInfoCarte.style.border ='white';
       display = 0;
