@@ -43,7 +43,7 @@
               <div id="HoverRemboursement" class="div-Infos-carte">
                   <h4 id="titre-tarif">Prix d'une séance</h4>
                   <p id="prix-tarif">50€
-                    <i id="icone-remboursement" class="fa-solid fa-circle-info"></i></p>
+                    <i id="icone-remboursement" class="fa-solid fa-circle-info" onclick="Informations()" ></i></p>
                   <p id="InfoRemboursement">Les séances ne sont pas remboursées par l'Assurance Maladie. Certaines mutuelles peuvent vous rembourser.</strong> Je fournis une <strong>facture sur demande</strong> afin que vous puissiez eventuellement vous faire rembourser.</p>
               </div>
               <div class="div-Infos-carte">
@@ -52,32 +52,35 @@
               </div>
             </div>
             <div id="div-Explications">
-              <div class="div-Explications-carte">
-                  <h5>OÙ SE DÉROULE LA SÉANCE ?</h5>
-                  <p>Les consultations se déroulent en ligne, sur <strong>ZOOM.</strong><br><br>
+              <div id="premierParagraphe" class="div-Explications-carte">
+                  <h5>OÙ SE DÉROULE LA SÉANCE ?<br><br><i  id="boutonPlusUn" class="fa-solid fa-square-plus"></i></h5>
+                  <p id="premierP">Les consultations se déroulent en ligne, sur <strong>ZOOM.</strong><br><br>
                       Il est nécessaire de télécharger Zoom et de créer un compte afin de participer à la séance. <br> <br>
-                      Un lien de connexion permanent est envoyé par mail une fois votre consultation réservée.
+                      Un lien de connexion permanent est envoyé par mail une fois votre consultation réservée.<br> 
+                      <i  id="boutonMoinsUn" class="fa-solid fa-circle-minus"></i>
                   </p>
               </div>
-              <div class="div-Explications-carte">
-                  <h5>COMMENT SE DÉROULE UNE THÉRAPIE ?</h5>
-                  <p>
+              <div id="deuxiemeParagraphe" class="div-Explications-carte">
+                  <h5>COMMENT SE DÉROULE UNE THÉRAPIE ? <br><br><i id="boutonPlusDeux" class="fa-solid fa-square-plus"></i></h5>
+                  <p id="deuxiemeP">
                       Les <strong>deux premières séances</strong> permettent de faire connaissance, de construire une relation de confiance, de recueillir votre histoire personnelle et d'identifier les axes de travail thérapeutiques. <br> <br>
-                      Les <strong>séances suivantes</strong> permettent de travailler sur les problématiques rencontrées.
+                      Les <strong>séances suivantes</strong> permettent de travailler sur les problématiques rencontrées.<br>
+                      <i  id="boutonMoinsDeux" class="fa-solid fa-circle-minus"></i>
                   </p>
                </div>   
-                  <div class="div-Explications-carte">
-                      <h5>COMBIEN DE SÉANCES AI-JE BESOIN ?</h5>
-                      <p>La <strong>fréquence des séances</strong> dépend de votre besoin individuel. <br>
+                  <div id="troisiemeParagraphe" class="div-Explications-carte">
+                      <h5>COMBIEN DE SÉANCES AI-JE BESOIN ?<br><br><i id="boutonPlusTrois" class="fa-solid fa-square-plus"></i></h5>
+                      <p id="troisiemeP" >La <strong>fréquence des séances</strong> dépend de votre besoin individuel. <br>
                           Parfois, quelques séances suffisent. Parfois, on ressent le besoin de plus. <br>
                           Les séances peuvent être hebdomadaires, bi-mensuelles, mensuelles. <br>
-                          Ce besoin peut <strong>évoluer librement</strong>: vous restez le principal acteur de votre thérapie.
+                          Ce besoin peut <strong>évoluer librement</strong>: vous restez le principal acteur de votre thérapie.<br>
+                          <i id="boutonMoinsTrois" class="fa-solid fa-circle-minus"></i>
                       </p>
                   </div>
               </div>
             </div>
-          <!-- </section>
-          <section id="containerInfosTarifs">
+         </section>
+         <!--   <section id="containerInfosTarifs">
             <div class="divInfosTarfis">
                 <div class="divInfosTarfisFirst">
                     <div class="divInfosTarfisTitle">
@@ -114,6 +117,6 @@
     </main>
   
 </body>
-<!-- <script src="../js/index.js"></script> -->
+<script src="../js/index.js"></script>
 <script src="../js/tarif.js"></script>
 </html>

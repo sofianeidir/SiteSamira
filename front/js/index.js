@@ -86,11 +86,15 @@ fermer.addEventListener('click', (e) => {
   calendly.style.display = 'none'
 })
 
-let rdvBoutton = document.getElementById('PrendreRdvBoutton');
 
-rdvBoutton.addEventListener('click', ()=>{
-  calendly.style.display = 'flex';
-})
+//J'AI MIS EN VERSION DIRECTE DE CALENDLY SUR MOBILE !!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+// let rdvBoutton = document.getElementById('PrendreRdvBoutton');
+
+// rdvBoutton.addEventListener('click', ()=>{
+//   calendly.style.display = 'flex';
+// })
 
 // Partie tarif, hover sur l'icone
 

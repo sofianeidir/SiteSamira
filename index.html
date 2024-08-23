@@ -18,7 +18,12 @@
                         <i class="fa-solid fa-xmark" id="non"></i>
                         <i class="fa-solid fa-bars" id="oui" onclick=""></i>
                         <img src="./front/images/En_ligne-removebg-preview.png" alt="Logo de Samira Mechri">
-                        <a href="#calendly"><i id="PrendreRdvBoutton" class="fa-solid fa-calendar-check"></i></a>
+                        <!-- <a href="#calendly"><i id="PrendreRdvBoutton" class="fa-solid fa-calendar-check"></i></a> -->
+                         <!-- Début de widget de lien Calendly -->
+                         <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+                         <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+                         <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/samiramechri/consultation-de-suivi-de-psychologie'});return false;"><i class="fa-solid fa-calendar-check"></i></a>
+                         <!-- Fin de widget de lien Calendly -->
                         <div id="essaye">
                         <a href="#"><li id="accueil">ACCUEIL</li></a> 
                         <!-- <a href="#LienVisantARamenerLeLecteur"><li id="barreInfoEspace">MA PRATIQUE </li></a> si je le remet ne pas oublié d'activé page index.js la fonction que j'ai désactivé -->
@@ -27,7 +32,7 @@
                         <!-- Début de widget de lien Calendly -->
                         <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
                         <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-                        <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/samiramechri/consultation-de-suivi-de-psychologie'});return false;">PRENDRE RDV</a>
+                        <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/samiramechri/consultation-de-suivi-de-psychologie'});return false;"><li>PRENDRE RDV</li></a>
                         <!-- Fin de widget de lien Calendly -->
                         <a href="./front/html/contact.html"><li>CONTACT</li></a>
                         </div>
@@ -37,7 +42,7 @@
         </header>
 <!-- Début de widget en ligne Calendly -->
 <aside id="calendly-container">
-    <div id="calendly" class="calendly-inline-widget" data-url="https://calendly.com/samiramechri/consultation-de-suivi-de-psychologie" style="min-width:500px; height:700px;"></div>
+    <div id="calendly" class="calendly-inline-widget" data-url="https://calendly.com/samiramechri/consultation-de-suivi-de-psychologie" ></div>  <!--style="min-width:500px; height:700px;"-->
     <button id="fermer">Fermer</button>
 </aside>
 <!-- Fin de widget en ligne Calendly -->
@@ -74,7 +79,7 @@
                     <h2>Ma pratique se veut rigoureuse, électique et intégrative. <br>
                         Elles puisent ses sources dans plusieurs approches :</h2>
                     <!-- <p><strong>Elles puisent ses sources dans plusieurs approches :</strong></p> -->
-                    <li><strong>Thérapies Cognitives Comportementales et Emotionnelles (TCCE) :</strong> pour analyser en profondeur les liens entre vos pensées, comportmeents, penséees et émotions.</li>
+                    <li><strong>Thérapies Cognitives Comportementales et Emotionnelles (TCCE) :</strong> pour analyser en profondeur les liens entre vos pensées, comportements, pensées et émotions.</li>
                     <li><strong>Thérapie des schémas :</strong> pour comprendre et agir sur vos schémas de vie répétitifs et dysfonctionnels.</li>
                     <li><strong>Thérapie ACT :</strong> pour acceuillir et renforcer vos ambitions personnelles.</li>
                     <li><strong>Thérapie ICV :</strong> pour travailler en profondeur sur vos traumas et votre style d'attachement relationnel.</li>
