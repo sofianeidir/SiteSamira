@@ -176,6 +176,7 @@ let boutonMoinsTrois = document.getElementById('boutonMoinsTrois');
       troisiemeP.style.display = 'none';
       boutonPlusDeux.style.display = 'block';
       boutonPlusTrois.style.display = 'contents';
+      display = 1
   
     });
     
@@ -184,6 +185,7 @@ let boutonMoinsTrois = document.getElementById('boutonMoinsTrois');
       premierParagraphe.style.height = '23%'
       containerTarif.style.height = '60em'
       boutonPlusUn.style.display = 'block'
+      display= 0
     
     })
     
