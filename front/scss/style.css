@@ -844,6 +844,7 @@ footer {
     color: rgb(134, 212, 208);
     font-size: 1.1em;
     text-align: center;
+    cursor: pointer;
   }
   .div-Explications-carte h5 {
     font-size: 1em;
