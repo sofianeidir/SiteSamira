@@ -168,8 +168,8 @@ let boutonMoinsTrois = document.getElementById('boutonMoinsTrois');
 
     boutonPlusUn.addEventListener('click', () =>{
       premierP.style.display = 'contents';
-      premierParagraphe.style.height = '1000px'; // voir si ici sa marche en mobile .... 70vh 
-      containerTarif.style.height = '1000px' //87em
+      premierParagraphe.style.height = '70vh'; // voir si ici sa marche en mobile .... 70vh 
+      containerTarif.style.height = '87em' //87em
       boutonPlusUn.style.display = 'none'
    // pour que sa ferme automatiquement les autres :
       deuxiemeP.style.display = 'none';
