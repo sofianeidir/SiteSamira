@@ -235,75 +235,75 @@ let boutonMoinsTrois = document.getElementById('boutonMoinsTrois');
   }
 
 
-  if (window.matchMedia("(max-height: 800px)").matches ){
+  // if (window.matchMedia("(max-height: 800px)").matches ){
 
-    boutonPlusUn.addEventListener('click', () =>{
-      premierP.style.display = 'block';
-      premierParagraphe.style.height = '90vh';
-      containerTarif.style.height = '83em'
-      boutonPlusUn.style.display = 'none'
-   // pour que sa ferme automatiquement les autres :
-      deuxiemeP.style.display = 'none';
-      troisiemeP.style.display = 'none';
-      boutonPlusDeux.style.display = 'block';
-      boutonPlusTrois.style.display = 'contents';
+  //   boutonPlusUn.addEventListener('click', () =>{
+  //     premierP.style.display = 'block';
+  //     premierParagraphe.style.height = '90vh';
+  //     containerTarif.style.height = '83em'
+  //     boutonPlusUn.style.display = 'none'
+  //  // pour que sa ferme automatiquement les autres :
+  //     deuxiemeP.style.display = 'none';
+  //     troisiemeP.style.display = 'none';
+  //     boutonPlusDeux.style.display = 'block';
+  //     boutonPlusTrois.style.display = 'contents';
   
-    });
+  //   });
     
-    boutonMoinsUn.addEventListener('click', ()=> {
-      premierP.style.display = 'none';
-      premierParagraphe.style.height = '30%'
-      containerTarif.style.height = '60em'
-      boutonPlusUn.style.display = 'block'
+  //   boutonMoinsUn.addEventListener('click', ()=> {
+  //     premierP.style.display = 'none';
+  //     premierParagraphe.style.height = '30%'
+  //     containerTarif.style.height = '60em'
+  //     boutonPlusUn.style.display = 'block'
     
-    })
+  //   })
     
-    boutonPlusDeux.addEventListener('click', ()=> {
-      deuxiemeP.style.display = 'block';
-      deuxiemeParagraphe.style.height = '90vh';
-      containerTarif.style.height = '80em' 
-      boutonPlusDeux.style.display = 'none';
-      // pour que sa ferme automatiquement les autres :
-      premierP.style.display = 'none';
-      troisiemeP.style.display = 'none';
-      boutonPlusUn.style.display = 'block'
-      boutonPlusTrois.style.display = 'contents';
+  //   boutonPlusDeux.addEventListener('click', ()=> {
+  //     deuxiemeP.style.display = 'block';
+  //     deuxiemeParagraphe.style.height = '90vh';
+  //     containerTarif.style.height = '80em' 
+  //     boutonPlusDeux.style.display = 'none';
+  //     // pour que sa ferme automatiquement les autres :
+  //     premierP.style.display = 'none';
+  //     troisiemeP.style.display = 'none';
+  //     boutonPlusUn.style.display = 'block'
+  //     boutonPlusTrois.style.display = 'contents';
 
      
       
-    });
+  //   });
     
-    boutonMoinsDeux.addEventListener('click', () => {
+  //   boutonMoinsDeux.addEventListener('click', () => {
     
-      deuxiemeP.style.display = 'none';
-      deuxiemeParagraphe.style.height = '30%'
-      containerTarif.style.height = '60em';
-      boutonPlusDeux.style.display = 'block';
-    });
+  //     deuxiemeP.style.display = 'none';
+  //     deuxiemeParagraphe.style.height = '30%'
+  //     containerTarif.style.height = '60em';
+  //     boutonPlusDeux.style.display = 'block';
+  //   });
     
-    boutonPlusTrois.addEventListener('click', () => {
-      troisiemeP.style.display = 'block';
-      troisiemeParagraphe.style.height = '90vh';
-      containerTarif.style.height = '83em' 
-      boutonPlusTrois.style.display = 'none';
+  //   boutonPlusTrois.addEventListener('click', () => {
+  //     troisiemeP.style.display = 'block';
+  //     troisiemeParagraphe.style.height = '90vh';
+  //     containerTarif.style.height = '83em' 
+  //     boutonPlusTrois.style.display = 'none';
 
-      // pour que sa ferme automatiquement les autres :
-      premierP.style.display = 'none';
-      deuxiemeP.style.display = 'none';
-      boutonPlusDeux.style.display = 'block';
-      boutonPlusUn.style.display = 'block'
+  //     // pour que sa ferme automatiquement les autres :
+  //     premierP.style.display = 'none';
+  //     deuxiemeP.style.display = 'none';
+  //     boutonPlusDeux.style.display = 'block';
+  //     boutonPlusUn.style.display = 'block'
     
-    });
+  //   });
     
-    boutonMoinsTrois.addEventListener('click', () => {
-      troisiemeP.style.display = 'none';
-      troisiemeParagraphe.style.height = '30%'
-      containerTarif.style.height = '60em';
-      boutonPlusTrois.style.display = 'contents';
+  //   boutonMoinsTrois.addEventListener('click', () => {
+  //     troisiemeP.style.display = 'none';
+  //     troisiemeParagraphe.style.height = '30%'
+  //     containerTarif.style.height = '60em';
+  //     boutonPlusTrois.style.display = 'contents';
     
-    })
+  //   })
     
-  }
+  // }
 
 
 
