@@ -167,7 +167,7 @@ let boutonMoinsTrois = document.getElementById('boutonMoinsTrois');
   if (window.matchMedia("(max-width: 821px)").matches ){
 
     boutonPlusUn.addEventListener('click', () =>{
-      premierP.style.display = 'contents';
+      premierP.style.display = 'block';
       premierParagraphe.style.height = '70vh'; // voir si ici sa marche en mobile .... 70vh 
       containerTarif.style.height = '87em' //87em
       boutonPlusUn.style.display = 'none'
@@ -188,7 +188,7 @@ let boutonMoinsTrois = document.getElementById('boutonMoinsTrois');
     })
     
     boutonPlusDeux.addEventListener('click', ()=> {
-      deuxiemeP.style.display = 'contents';
+      deuxiemeP.style.display = 'block';
       deuxiemeParagraphe.style.height = '100%';
       containerTarif.style.height = '84em' 
       boutonPlusDeux.style.display = 'none';
@@ -211,7 +211,7 @@ let boutonMoinsTrois = document.getElementById('boutonMoinsTrois');
     });
     
     boutonPlusTrois.addEventListener('click', () => {
-      troisiemeP.style.display = 'contents';   // c'était block pour les 3333333
+      troisiemeP.style.display = 'block';   // c'était block pour les 3333333
       troisiemeParagraphe.style.height = '100%';
       containerTarif.style.height = '82em' 
       boutonPlusTrois.style.display = 'none';
