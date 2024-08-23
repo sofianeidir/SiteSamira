@@ -168,7 +168,7 @@ let boutonMoinsTrois = document.getElementById('boutonMoinsTrois');
 
     boutonPlusUn.addEventListener('click', () =>{
       premierP.style.display = 'contents';
-      premierParagraphe.style.height = '100%'; // voir si ici sa marche en mobile .... 70vh 
+      premierParagraphe.style.height = '70vh'; // voir si ici sa marche en mobile .... 70vh 
       containerTarif.style.height = '87em'
       boutonPlusUn.style.display = 'none'
    // pour que sa ferme automatiquement les autres :
@@ -176,7 +176,6 @@ let boutonMoinsTrois = document.getElementById('boutonMoinsTrois');
       troisiemeP.style.display = 'none';
       boutonPlusDeux.style.display = 'contents';
       boutonPlusTrois.style.display = 'contents';
-      display = 1
   
     });
     
@@ -185,7 +184,6 @@ let boutonMoinsTrois = document.getElementById('boutonMoinsTrois');
       premierParagraphe.style.height = '23%'
       containerTarif.style.height = '60em'
       boutonPlusUn.style.display = 'contents'
-      display= 0
     
     })
     
