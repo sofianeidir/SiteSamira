@@ -176,6 +176,11 @@ let boutonMoinsTrois = document.getElementById('boutonMoinsTrois');
       troisiemeP.style.display = 'none';
       boutonPlusDeux.style.display = 'contents';
       boutonPlusTrois.style.display = 'contents';
+
+      //teste 
+      deuxiemeParagraphe.style.height = '23%';
+      troisiemeParagraphe.style.height = '23%';
+
   
     });
     
@@ -197,6 +202,10 @@ let boutonMoinsTrois = document.getElementById('boutonMoinsTrois');
       troisiemeP.style.display = 'none';
       boutonPlusUn.style.display = 'contents'
       boutonPlusTrois.style.display = 'contents';
+
+      //teste 
+      premierParagraphe.style.height = '23%';
+       troisiemeParagraphe.style.height = '23%';
 
      
       
@@ -221,6 +230,10 @@ let boutonMoinsTrois = document.getElementById('boutonMoinsTrois');
       deuxiemeP.style.display = 'none';
       boutonPlusDeux.style.display = 'contents';
       boutonPlusUn.style.display = 'contents'
+
+      //teste 
+      premierParagraphe.style.height = '23%';
+       deuxiemeParagraphe.style.height = '23%'
     
     });
     
@@ -232,6 +245,21 @@ let boutonMoinsTrois = document.getElementById('boutonMoinsTrois');
     
     })
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   /////////////////////////////ECRAN MOINS GRAND EN HAUTEUR
   if (window.matchMedia("(max-height: 800px)").matches ){
@@ -246,6 +274,10 @@ let boutonMoinsTrois = document.getElementById('boutonMoinsTrois');
       troisiemeP.style.display = 'none';
       boutonPlusDeux.style.display = 'contents';
       boutonPlusTrois.style.display = 'contents';
+
+      //teste
+      troisiemeParagraphe.style.height = '20%' ;
+      deuxiemeParagraphe.style.height = '20%';
   
     });
     
@@ -268,6 +300,9 @@ let boutonMoinsTrois = document.getElementById('boutonMoinsTrois');
       boutonPlusUn.style.display = 'contents'
       boutonPlusTrois.style.display = 'contents';
 
+      //teste
+      premierParagraphe.style.height = '20%'; 
+       troisiemeParagraphe.style.height = '20%' ;
      
       
     });
@@ -291,6 +326,11 @@ let boutonMoinsTrois = document.getElementById('boutonMoinsTrois');
       deuxiemeP.style.display = 'none';
       boutonPlusDeux.style.display = 'contents';
       boutonPlusUn.style.display = 'contents'
+
+      //teste
+
+        deuxiemeParagraphe.style.height = '20%';
+      premierParagraphe.style.height = '20%'
     
     });
     
