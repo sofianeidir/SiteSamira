@@ -1286,7 +1286,7 @@ footer {
     // height: 600px;
     // height: 89.5vh;
     // height: 155em;
-    height: 60em; // ici j'ai mis pour la version macbook 2500 px
+    height: 1000px; // ici j'ai mis 60em à l abase
     width: 100%;
     background-color: #d7f3f5a4;
     margin: auto;
@@ -1299,7 +1299,7 @@ footer {
     flex-direction: column;
     justify-content: space-between;
     width: 100%;
-    height: 30em;
+    height: 450px;   //30em
     // margin: none;
     margin-bottom: 10%;
 
@@ -1364,7 +1364,7 @@ footer {
     flex-direction: column;
     justify-content: space-between;
     width: 100%;
-    height: 50vh;
+    height: 50%;  //50vh
     margin: auto;
     margin-top: 0%;
     
@@ -1407,7 +1407,7 @@ footer {
         text-align: center;
         margin: auto;
         width: 90%;
-        height: 10%;
+        // height: 10%;   ////// je crois le conflit venait de là !!!!!
         font-size: 1em;
         line-height: 35px;
 

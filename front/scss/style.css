@@ -758,7 +758,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 60em;
+    height: 1000px;
     width: 100%;
     background-color: rgba(215, 243, 245, 0.6431372549);
     margin: auto;
@@ -769,7 +769,7 @@ footer {
     flex-direction: column;
     justify-content: space-between;
     width: 100%;
-    height: 30em;
+    height: 450px;
     margin-bottom: 10%;
   }
   #div-Infos .div-Infos-carte {
@@ -818,7 +818,7 @@ footer {
     flex-direction: column;
     justify-content: space-between;
     width: 100%;
-    height: 50vh;
+    height: 50%;
     margin: auto;
     margin-top: 0%;
   }
@@ -855,7 +855,6 @@ footer {
     text-align: center;
     margin: auto;
     width: 90%;
-    height: 10%;
     font-size: 1em;
     line-height: 35px;
   }
