@@ -237,8 +237,8 @@ let boutonMoinsTrois = document.getElementById('boutonMoinsTrois');
 
     boutonPlusUn.addEventListener('click', () =>{
       premierP.style.display = 'block';
-      premierParagraphe.style.height = '250em'; //90vh
-      containerTarif.style.height = '83em'
+      premierParagraphe.style.height = '120%'; //90vh
+      containerTarif.style.height = '90em' //83em
       boutonPlusUn.style.display = 'none'
    // pour que sa ferme automatiquement les autres :
       deuxiemeP.style.display = 'none';
@@ -258,8 +258,8 @@ let boutonMoinsTrois = document.getElementById('boutonMoinsTrois');
     
     boutonPlusDeux.addEventListener('click', ()=> {
       deuxiemeP.style.display = 'block';
-      deuxiemeParagraphe.style.height = '90vh'; //90vh
-      containerTarif.style.height = '80em' 
+      deuxiemeParagraphe.style.height = '120%'; //90vh
+      containerTarif.style.height = '90em' //80em
       boutonPlusDeux.style.display = 'none';
       // pour que sa ferme automatiquement les autres :
       premierP.style.display = 'none';
@@ -281,8 +281,8 @@ let boutonMoinsTrois = document.getElementById('boutonMoinsTrois');
     
     boutonPlusTrois.addEventListener('click', () => {
       troisiemeP.style.display = 'block';
-      troisiemeParagraphe.style.height = '90vh'; //90vh
-      containerTarif.style.height = '83em' 
+      troisiemeParagraphe.style.height = '120%'; //90vh
+      containerTarif.style.height = '90em' //83em
       boutonPlusTrois.style.display = 'none';
 
       // pour que sa ferme automatiquement les autres :
