@@ -1374,12 +1374,9 @@ footer {
     margin: auto;
     margin-bottom: 10%;
     // display: none;
-    z-index: 1;
-    // width: 23%;  
-    width: 90%; // ici j'ai mis pour le macbook
-    //  height: 370px;
-    // height: 33em;
-    height: 23%;
+    z-index: 1;  
+    width: 90%; 
+    height: 10vh; /// je dois changer et mettre en vh pour tester, c'était a 23%
     text-align: center;
     border: 1px solid rgb(255, 255, 255);
     border-radius: 0%;
