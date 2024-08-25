@@ -160,11 +160,16 @@ let boutonMoinsTrois = document.getElementById('boutonMoinsTrois');
 // }
 
 
+if(window.matchMedia("(max-width: 821px) and (max-height: 800px)").matches){
+
+}
+
+
 
 // avec addevent listener
 
 
-  if (window.matchMedia("(max-width: 821px)").matches ){
+if(window.matchMedia("(max-width: 821px)").matches){
 
     boutonPlusUn.addEventListener('click', () =>{
       premierP.style.display = 'block';
@@ -222,7 +227,7 @@ let boutonMoinsTrois = document.getElementById('boutonMoinsTrois');
     boutonPlusTrois.addEventListener('click', () => {
       troisiemeP.style.display = 'block';   // c'était block pour les 3333333
       troisiemeParagraphe.style.height = '100%';
-      containerTarif.style.height = '1300px' // 82em
+      containerTarif.style.height = 'auto' // 82em
       boutonPlusTrois.style.display = 'none';
 
       // pour que sa ferme automatiquement les autres :
@@ -262,87 +267,87 @@ let boutonMoinsTrois = document.getElementById('boutonMoinsTrois');
 
 
   /////////////////////////////ECRAN MOINS GRAND EN HAUTEUR
-  if (window.matchMedia("(max-height: 800px)").matches ){
+  // if (window.matchMedia("(max-height: 800px)").matches ){
 
-    boutonPlusUn.addEventListener('click', () =>{
-      premierP.style.display = 'block';
-      premierParagraphe.style.height = '100%'; //90vh
-      containerTarif.style.height = '1300px' //83em
-      boutonPlusUn.style.display = 'none'
-   // pour que sa ferme automatiquement les autres :
-      deuxiemeP.style.display = 'none';
-      troisiemeP.style.display = 'none';
-      boutonPlusDeux.style.display = 'contents';
-      boutonPlusTrois.style.display = 'contents';
+  //   boutonPlusUn.addEventListener('click', () =>{
+  //     premierP.style.display = 'block';
+  //     premierParagraphe.style.height = '100%'; //90vh
+  //     containerTarif.style.height = '1300px' //83em
+  //     boutonPlusUn.style.display = 'none'
+  //  // pour que sa ferme automatiquement les autres :
+  //     deuxiemeP.style.display = 'none';
+  //     troisiemeP.style.display = 'none';
+  //     boutonPlusDeux.style.display = 'contents';
+  //     boutonPlusTrois.style.display = 'contents';
 
-      //teste
-      troisiemeParagraphe.style.height = '20%' ;
-      deuxiemeParagraphe.style.height = '20%';
+  //     //teste
+  //     troisiemeParagraphe.style.height = '20%' ;
+  //     deuxiemeParagraphe.style.height = '20%';
   
-    });
+  //   });
     
-    boutonMoinsUn.addEventListener('click', ()=> {
-      premierP.style.display = 'none';
-      premierParagraphe.style.height = '20%'
-      containerTarif.style.height = '950px'
-      boutonPlusUn.style.display = 'contents'
+  //   boutonMoinsUn.addEventListener('click', ()=> {
+  //     premierP.style.display = 'none';
+  //     premierParagraphe.style.height = '20%'
+  //     containerTarif.style.height = '950px'
+  //     boutonPlusUn.style.display = 'contents'
     
-    })
+  //   })
     
-    boutonPlusDeux.addEventListener('click', ()=> {
-      deuxiemeP.style.display = 'block';
-      deuxiemeParagraphe.style.height = '100%'; //90vh
-      containerTarif.style.height = '1250px' //80em
-      boutonPlusDeux.style.display = 'none';
-      // pour que sa ferme automatiquement les autres :
-      premierP.style.display = 'none';
-      troisiemeP.style.display = 'none';
-      boutonPlusUn.style.display = 'contents'
-      boutonPlusTrois.style.display = 'contents';
+  //   boutonPlusDeux.addEventListener('click', ()=> {
+  //     deuxiemeP.style.display = 'block';
+  //     deuxiemeParagraphe.style.height = '100%'; //90vh
+  //     containerTarif.style.height = '1250px' //80em
+  //     boutonPlusDeux.style.display = 'none';
+  //     // pour que sa ferme automatiquement les autres :
+  //     premierP.style.display = 'none';
+  //     troisiemeP.style.display = 'none';
+  //     boutonPlusUn.style.display = 'contents'
+  //     boutonPlusTrois.style.display = 'contents';
 
-      //teste
-      premierParagraphe.style.height = '20%'; 
-       troisiemeParagraphe.style.height = '20%' ;
+  //     //teste
+  //     premierParagraphe.style.height = '20%'; 
+  //      troisiemeParagraphe.style.height = '20%' ;
      
       
-    });
+  //   });
     
-    boutonMoinsDeux.addEventListener('click', () => {
+  //   boutonMoinsDeux.addEventListener('click', () => {
     
-      deuxiemeP.style.display = 'none';
-      deuxiemeParagraphe.style.height = '20%'
-      containerTarif.style.height = '950px';
-      boutonPlusDeux.style.display = 'contents';
-    });
+  //     deuxiemeP.style.display = 'none';
+  //     deuxiemeParagraphe.style.height = '20%'
+  //     containerTarif.style.height = '950px';
+  //     boutonPlusDeux.style.display = 'contents';
+  //   });
     
-    boutonPlusTrois.addEventListener('click', () => {
-      troisiemeP.style.display = 'block';
-      troisiemeParagraphe.style.height = '100%'; //90vh
-      containerTarif.style.height = '1300px' //83em
-      boutonPlusTrois.style.display = 'none';
+  //   boutonPlusTrois.addEventListener('click', () => {
+  //     troisiemeP.style.display = 'block';
+  //     troisiemeParagraphe.style.height = '100%'; //90vh
+  //     containerTarif.style.height = '1300px' //83em
+  //     boutonPlusTrois.style.display = 'none';
 
-      // pour que sa ferme automatiquement les autres :
-      premierP.style.display = 'none';
-      deuxiemeP.style.display = 'none';
-      boutonPlusDeux.style.display = 'contents';
-      boutonPlusUn.style.display = 'contents'
+  //     // pour que sa ferme automatiquement les autres :
+  //     premierP.style.display = 'none';
+  //     deuxiemeP.style.display = 'none';
+  //     boutonPlusDeux.style.display = 'contents';
+  //     boutonPlusUn.style.display = 'contents'
 
-      //teste
+  //     //teste
 
-        deuxiemeParagraphe.style.height = '20%';
-      premierParagraphe.style.height = '20%'
+  //       deuxiemeParagraphe.style.height = '20%';
+  //     premierParagraphe.style.height = '20%'
     
-    });
+  //   });
     
-    boutonMoinsTrois.addEventListener('click', () => {
-      troisiemeP.style.display = 'none';
-      troisiemeParagraphe.style.height = '20%'
-      containerTarif.style.height = '950px';
-      boutonPlusTrois.style.display = 'contents';
+  //   boutonMoinsTrois.addEventListener('click', () => {
+  //     troisiemeP.style.display = 'none';
+  //     troisiemeParagraphe.style.height = '20%'
+  //     containerTarif.style.height = '950px';
+  //     boutonPlusTrois.style.display = 'contents';
     
-    })
+  //   })
     
-  }
+  // }
 
 
 
