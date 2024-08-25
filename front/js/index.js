@@ -76,15 +76,17 @@ let rdv = document.getElementById('PrendreRdv');
 let calendly = document.getElementById('calendly-container');
 let fermer = document.getElementById('fermer')
 
-rdv.addEventListener('click', () => {
-  
-  calendly.style.display = 'flex';
-  
-})
 
-fermer.addEventListener('click', (e) => {
-  calendly.style.display = 'none'
-})
+  rdv.addEventListener('click', () => {
+  
+    calendly.style.display = 'flex';
+    
+  })
+  
+  fermer.addEventListener('click', (e) => {
+    calendly.style.display = 'none'
+  })
+  
 
 
 //J'AI MIS EN VERSION DIRECTE DE CALENDLY SUR MOBILE !!!!!!!!!!!!!!!!!!!!!!!!!!!!
