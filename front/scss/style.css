@@ -1,5 +1,5 @@
 body {
-  margin: auto;
+  margin: 0;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
@@ -292,17 +292,18 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 110%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
   background-color: rgba(215, 243, 245, 0.6431372549);
+  margin: 0;
 }
 
 #div-Infos {
-  margin: auto;
+  margin-top: 3%;
   z-index: 1;
   display: flex;
   justify-content: space-around;
-  width: 100%;
+  width: 100vw;
   animation-name: tarif;
   animation-duration: 3s;
   animation-delay: 0.5s;
@@ -316,8 +317,7 @@ footer {
 }
 #div-Infos .div-Infos-carte {
   text-align: center;
-  width: 23%;
-  height: 100%;
+  width: 23vw;
   border: 3px solid white;
   border-radius: 60%;
   text-align: center;
@@ -326,11 +326,11 @@ footer {
 #div-Infos .div-Infos-carte #InfoRemboursement {
   display: none;
   text-align: center;
-  position: absolute;
+  position: fixed;
   border: 1px solid white;
   box-shadow: 1px 1px 10px 10px white;
   left: 30%;
-  top: 31%;
+  top: 27vh;
   text-align: center;
   width: 40%;
   font-size: 1em;
@@ -342,10 +342,10 @@ footer {
   cursor: pointer;
 }
 #div-Infos h4 {
-  font-size: 25px;
+  font-size: 1em;
 }
 #div-Infos p {
-  font-size: 19px;
+  font-size: 1em;
   text-align: center;
 }
 
@@ -353,15 +353,14 @@ footer {
   z-index: 1;
   display: flex;
   justify-content: space-around;
-  width: 100%;
+  width: 100vw;
   margin: auto;
-  margin-top: 0;
 }
 
 .div-Explications-carte {
   z-index: 1;
-  width: 27%;
-  height: 100%;
+  width: 27vw;
+  height: auto;
   text-align: center;
   border: 1px solid rgb(134, 212, 208);
   border-radius: 10%;
@@ -371,6 +370,8 @@ footer {
   animation-delay: 1.5s;
   animation-fill-mode: forwards;
   opacity: 0;
+  margin-top: 3%;
+  margin-bottom: 3%;
 }
 .div-Explications-carte i {
   display: none;
@@ -386,15 +387,8 @@ footer {
     opacity: 1;
   }
 }
-.div-Explications-carte h5 {
-  font-size: 17px;
-}
 .div-Explications-carte p {
-  margin: auto;
-  width: 90%;
-  height: 100%;
-  font-size: 21px;
-  line-height: 35px;
+  line-height: 2em;
 }
 
 #calendly-container {
@@ -554,13 +548,10 @@ footer {
     width: 28%;
   }
   #container-tarif {
-    height: 84vh;
-  }
-  #container-tarif #div-Explications {
-    height: 50vh;
+    height: 100vh;
   }
   #container-tarif .div-Explications-carte {
-    width: 23%;
+    width: 23vw;
     height: 100%;
   }
   #container-tarif .div-Infos-carte #InfoRemboursement {

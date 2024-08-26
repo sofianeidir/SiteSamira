@@ -57,6 +57,11 @@ function Informations(){
   // } 
 
   window.addEventListener('scroll', ()=>{
+    messageRemboursement.style.display ='none';
+      divInfoCarte.style.backgroundColor = 'white';
+      divInfoCarte.style.border ='white';
+      modalitePaiement.style.opacity = '1'
+      display = 0;
     if (window.matchMedia("(max-width: 821px)").matches) {
       messageRemboursement.style.display ='none';
       divInfoCarte.style.backgroundColor = 'white';
