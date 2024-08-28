@@ -6,6 +6,7 @@ let divInfoCarte = document.getElementById('HoverRemboursement');
 let containerTarif = document.getElementById('container-tarif');
 let InfoCartes = document.getElementsByClassName('div-Infos-carte');
 let divExplicationsCarte = document.getElementsByTagName('div-Explications-carte > p')
+let divExplications = document.getElementById('div-Explications');
 let iconePlus = document.getElementsByClassName('fa-solid fa-square-plus');
 display = 0;
 
@@ -32,6 +33,7 @@ function Informations(){
     messageRemboursement.style.display ='block';
     divInfoCarte.style.backgroundColor = '#d7f3f51a';
     divInfoCarte.style.border ='#d7f3f51a';
+    divExplications.style.opacity = '0.1'
     display = 1;  
     if(window.matchMedia("(max-width: 821px)").matches){
       modalitePaiement.style.opacity = '0';
@@ -43,6 +45,7 @@ function Informations(){
           divInfoCarte.style.backgroundColor = 'white';
             divInfoCarte.style.border ='white';
             modalitePaiement.style.opacity = '1';
+            divExplications.style.opacity = '1'
             display = 0;
   }
   // if(window.matchMedia("(max-width: 821px)").matches){
@@ -61,6 +64,7 @@ function Informations(){
       divInfoCarte.style.backgroundColor = 'white';
       divInfoCarte.style.border ='white';
       modalitePaiement.style.opacity = '1'
+      divExplications.style.opacity = '1'
       display = 0;
     if (window.matchMedia("(max-width: 821px)").matches) {
       messageRemboursement.style.display ='none';
@@ -184,7 +188,7 @@ let boutonMoinsTrois = document.getElementById('boutonMoinsTrois');
 // avec addevent listener
 
 
-if(window.matchMedia("(max-width: 821px)").matches){
+if(window.matchMedia("(max-width: 950px)").matches){   /// cetait 821
 
     boutonPlusUn.addEventListener('click', () =>{
       premierP.style.display = 'block';
