@@ -27,25 +27,41 @@ display = 0;
 let modalitePaiement = document.getElementById('modalitePaiement');
 
 
+//teste opacity
+let divInfos = document.getElementById('div-Infos');
+
 function Informations(){
 
   if (display == 0) {
     messageRemboursement.style.display ='block';
-    divInfoCarte.style.backgroundColor = '#d7f3f51a';
-    divInfoCarte.style.border ='#d7f3f51a';
-    divExplications.style.opacity = '0.1'
+    
+    
+    // divInfoCarte.style.backgroundColor = '#d7f3f51a';
+    // divInfoCarte.style.border ='#d7f3f51a';
+    divExplications.style.opacity = '0.1';
+    //test 
+    for(let i = 0; i < 3; i++){
+      InfoCartes[i].style.backgroundColor = '#d7f3f51a';
+      InfoCartes[i].style.border ='#d7f3f51a';
+    }
+    
     display = 1;  
-    if(window.matchMedia("(max-width: 821px)").matches){
+    if(window.matchMedia("(max-width: 950px)").matches){ //821
       modalitePaiement.style.opacity = '0';
     }
   } 
   else {
       
     messageRemboursement.style.display ='none';
-          divInfoCarte.style.backgroundColor = 'white';
-            divInfoCarte.style.border ='white';
+          // divInfoCarte.style.backgroundColor = 'white';
+          //   divInfoCarte.style.border ='white';
             modalitePaiement.style.opacity = '1';
             divExplications.style.opacity = '1'
+            //test
+            for(let i = 0; i < 3; i++){
+              InfoCartes[i].style.backgroundColor = 'white';
+              InfoCartes[i].style.border ='white';
+            }
             display = 0;
   }
   // if(window.matchMedia("(max-width: 821px)").matches){
@@ -65,8 +81,13 @@ function Informations(){
       divInfoCarte.style.border ='white';
       modalitePaiement.style.opacity = '1'
       divExplications.style.opacity = '1'
+      //test
+      for(let i = 0; i < 3; i++){
+        InfoCartes[i].style.backgroundColor = 'white';
+        InfoCartes[i].style.border ='white';
+      }
       display = 0;
-    if (window.matchMedia("(max-width: 821px)").matches) {
+    if (window.matchMedia("(max-width: 950px)").matches) { //821
       messageRemboursement.style.display ='none';
       divInfoCarte.style.backgroundColor = 'white';
       divInfoCarte.style.border ='white';
