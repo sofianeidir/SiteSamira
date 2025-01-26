@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../scss/style.css">
+    <script src="https://kit.fontawesome.com/bf4938555b.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
     <title>Formations</title>
 </head>
 <body>
@@ -16,17 +18,22 @@
                         <i class="fa-solid fa-xmark" id="non"></i>
                         <i class="fa-solid fa-bars" id="oui" onclick=""></i>
                         <img src="../images/En_ligne-removebg-preview.png" alt="Logo de Samira Mechri">
-                        <a href="./front/html/contact.html"><i class="fa-solid fa-calendar-check"></i></a>
+                        <!-- <a href="./front/html/contact.html"><i class="fa-solid fa-calendar-check"></i></a> -->
+                              <!-- Début de widget de lien Calendly -->
+                              <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+                              <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+                              <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/samiramechri/consultation-de-suivi-de-psychologie'});return false;"><i class="fa-solid fa-calendar-check"></i></a>
+                              <!-- Fin de widget de lien Calendly -->
                         <div id="essaye">
                         <a href="/index.html"><li id="accueil">ACCUEIL</li></a> 
                         <!-- <a href="/index.html#LienVisantARamenerLeLecteur"><li id="barreInfoEspace">MA PRATIQUE </li></a> -->
                         <a href="./tarif.html"><li>CONSULTATIONS & TARIFS</li></a>
                         <a href="#"><li>FORMATIONS</li></a>
-                         <!-- Début de widget de lien Calendly -->
-                         <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-                         <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-                         <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/samiramechri/consultation-de-suivi-de-psychologie'});return false;">PRENDRE RDV</a>
-                         <!-- Fin de widget de lien Calendly -->
+                     <!-- Début de widget de lien Calendly -->
+                     <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+                     <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+                     <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/samiramechri/consultation-de-suivi-de-psychologie'});return false;"><li>PRENDRE RDV</li></a>
+                     <!-- Fin de widget de lien Calendly -->
                         <a href="./contact.html"><li>CONTACT</li></a>
                         </div>
                     </ul> 
@@ -39,5 +46,6 @@
         </section>
     </main>
 </body>
+<script src="../js/index.js"></script>
 </html>
 

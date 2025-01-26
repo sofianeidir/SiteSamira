@@ -19,6 +19,7 @@ const serviceID = "service_9nox97p";
 const templateID = "template_jgme03a";
 
 
+
 // suppression éléments html quand pas besoin avant appel de la fontion 
 champName.style.display ='none';
 champ_Email.style.display ='none';

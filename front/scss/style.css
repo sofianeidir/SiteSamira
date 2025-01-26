@@ -790,7 +790,7 @@ footer {
     cursor: pointer;
   }
   .div-Explications-carte h5 {
-    font-size: 1em;
+    font-size: 0.9em;
     width: 100%;
   }
   .div-Explications-carte p {
@@ -892,6 +892,12 @@ footer {
   #PremierePartie-Contact ::placeholder {
     font-family: cursive;
     color: black;
+  }
+  #titre-Formation {
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    margin-top: 15%;
   }
 }
 /* FIN VERSION MOBILE *//*# sourceMappingURL=style.css.map */

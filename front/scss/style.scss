@@ -1438,7 +1438,7 @@ footer {
     }
 
     h5 {
-        font-size: 1em;
+        font-size: 0.9em; // 1 em
         width: 100%;
 
     }
@@ -1597,6 +1597,13 @@ footer {
         color: black;
     }
 
+}
+
+#titre-Formation {
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    margin-top: 15%;
 }
 
 
