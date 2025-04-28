@@ -71,6 +71,9 @@ message.addEventListener('input',()=> {
         champ_Message.style.display = 'none';
     }
 });
+
+//teste marging top
+let marge = document.getElementById('marge-error');
 // Fonctions : 
 function valideChamps () {
     
@@ -78,6 +81,7 @@ function valideChamps () {
         // nom.style.backgroundColor = 'rgb(220, 73, 73)' // on enleve le rouge en fond dans les champs
         champName.style.display = ''
         champName.style.color = 'red';
+        marge.style.marginTop = '10%' // teste margin top après error
 
     } else {
         champName.style.display = 'none';
