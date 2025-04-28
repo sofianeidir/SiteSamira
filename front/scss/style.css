@@ -900,4 +900,20 @@ footer {
     margin-top: 15%;
   }
 }
-/* FIN VERSION MOBILE *//*# sourceMappingURL=style.css.map */
+/* FIN VERSION MOBILE */
+/*  Version grand ecrans */
+@media (min-width: 1550px) {
+  #main-Tarif {
+    height: 100vh;
+  }
+  #main-Tarif footer {
+    position: fixed;
+    bottom: 0px;
+  }
+  #container-tarif {
+    height: 90%;
+  }
+  #container-tarif #div-Explications {
+    margin-top: -4%;
+  }
+}/*# sourceMappingURL=style.css.map */

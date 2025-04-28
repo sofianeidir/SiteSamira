@@ -1611,5 +1611,32 @@ footer {
  }
 
 
- 
  /* FIN VERSION MOBILE */
+
+
+ /*  Version grand ecrans */ 
+
+ @media (min-width:1550px){
+
+
+    #main-Tarif{
+        height: 100vh;
+    //    background: red;
+
+       footer {
+        position: fixed;
+        bottom: 0px;
+       }
+
+    }
+    #container-tarif {
+        height: 90%;
+        
+
+        #div-Explications {
+            margin-top: -4%;
+
+        }
+
+    }
+ }
