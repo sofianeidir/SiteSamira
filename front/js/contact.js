@@ -54,11 +54,11 @@ nom.addEventListener('input',()=> {
 email.addEventListener('input',()=> {
     let value = email.value
     if(value != '' && pattern.test(valEmail.value)){
-        email.style.backgroundColor = 'white';
-        email.style.color = ('green');
+        email.style.backgroundColor = 'white'; // on va tester pour enlever le rouge
+        // email.style.color = ('green'); // on enleve le vert elle aime pas 
         champ_Email.style.display = 'none';
     } else {
-        email.style.color = ('red') ;
+        // email.style.color = ('red') ; // pareil pour le rouge 
         email.style.backgroundColor = 'white';
 
     }
@@ -75,7 +75,7 @@ message.addEventListener('input',()=> {
 function valideChamps () {
     
      if(document.getElementById("name").value === ""){
-        nom.style.backgroundColor = 'rgb(220, 73, 73)'
+        // nom.style.backgroundColor = 'rgb(220, 73, 73)' // on enleve le rouge en fond dans les champs
         champName.style.display = ''
         champName.style.color = 'red';
 
@@ -100,7 +100,7 @@ function valideChamps () {
     }else {
         champ_Email.style.display = '';
         champ_Email.style.color = 'red';
-        mail.style.backgroundColor = 'rgb(220, 73, 73)';
+        // mail.style.backgroundColor = 'rgb(220, 73, 73)'; //fond rouge
         mail.style.color = 'black';
 
     }
@@ -108,7 +108,7 @@ function valideChamps () {
       if (document.getElementById("message").value === ""){
         champ_Message.style.display = '';
         champ_Message.style.color = 'red';
-        message.style.backgroundColor = 'rgb(220, 73, 73)';
+        // message.style.backgroundColor = 'rgb(220, 73, 73)'; //fond rouge
 
     } else {
         champ_Message.style.display = 'none';
