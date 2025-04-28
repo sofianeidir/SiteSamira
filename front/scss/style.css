@@ -279,7 +279,6 @@ footer {
 }
 
 #Page-Contact {
-  position: fixed;
   bottom: 0;
 }
 
@@ -433,7 +432,7 @@ footer {
 #PremierePartie-Contact {
   background-color: rgba(215, 243, 245, 0.6431372549);
   width: 100%;
-  height: 84vh;
+  height: 100%;
   margin: auto;
 }
 #PremierePartie-Contact #message_post {
@@ -476,6 +475,7 @@ footer {
   text-align: center;
 }
 #PremierePartie-Contact form #button {
+  margin-top: 10%;
   width: 50%;
 }
 #PremierePartie-Contact #spinner {

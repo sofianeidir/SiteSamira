@@ -353,7 +353,7 @@ footer {
 }
 
 #Page-Contact{
-    position: fixed;
+    // position: fixed; onn teste 
     bottom: 0;
    }
 
@@ -817,8 +817,9 @@ footer {
 
     width: 100%;
     // height:650px;
-    height: 84vh;   // 82vh
+    // height: 84vh;   // 84vh
     // height: 81.5vh; // version macbook   81,5vh
+    height: 100%;
     margin: auto;
 
  
@@ -883,6 +884,7 @@ footer {
         }
 
         #button {
+            margin-top: 10%;
             width: 50%;
             // width: 300px;
             // margin-top: 40px;
@@ -1530,6 +1532,7 @@ footer {
 
         .form-text {
            text-align: center;
+        //    max-height: 290px;
            
         }
 

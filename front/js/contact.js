@@ -82,6 +82,7 @@ function valideChamps () {
         champName.style.display = ''
         champName.style.color = 'red';
         marge.style.marginTop = '10%' // teste margin top après error
+        bouton.style.marginTop = '0%'
 
     } else {
         champName.style.display = 'none';
