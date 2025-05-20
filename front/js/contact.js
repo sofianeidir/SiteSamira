@@ -120,6 +120,9 @@ function valideChamps () {
         message.style.backgroundColor = 'white';
         message.style.color = 'green';
     }
+
+    //version mobile 
+    
 }
 
 function sendMail(){
