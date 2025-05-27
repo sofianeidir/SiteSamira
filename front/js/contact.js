@@ -19,6 +19,11 @@ const serviceID = "service_9nox97p";
 const templateID = "template_jgme03a";
 
 
+if (screen.width <= 360 ){screen.orientation.lock('landscape')};
+
+
+
+
 
 // suppression éléments html quand pas besoin avant appel de la fontion 
 champName.style.display ='none';
@@ -153,7 +158,6 @@ valideChamps();
     // spinner.style.display ='none';
     
     }
-
 
 
 
