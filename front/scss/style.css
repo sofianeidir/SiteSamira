@@ -921,4 +921,9 @@ footer {
   #div-Explications h5 {
     font-size: 0.8em;
   }
+}
+@media screen and (orientation: landscape) {
+  #isma .rotate-warning {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */

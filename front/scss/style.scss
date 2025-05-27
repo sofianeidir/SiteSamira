@@ -1655,3 +1655,12 @@ footer {
    
     }
 
+
+  #isma {
+      @media screen and (orientation:landscape) {
+  .rotate-warning {
+    display: none;
+  }
+}
+  }
+
